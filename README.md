@@ -6,6 +6,7 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 ## Table of Contents
 
 | Section | Purpose |
+| --- | --- |
 | Introduction | --- |
 | Requirements | --- |
 | Key Terms | --- |
