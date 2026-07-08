@@ -75,9 +75,9 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 
 2. Run the installer
 3. Accept the default installation options.
-  Note: You may get a few warning messages. This is okay, just click 'yes' for them. <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
-4. If prompted, allow drivers or adapters to install.
-5. Finish the installation and open VirtualBox.
+\n Note: You may get a few warning messages. This is okay, just click 'yes' for them. <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
+5. If prompted, allow drivers or adapters to install.
+6. Finish the installation and open VirtualBox.
 
 
 
