@@ -34,7 +34,7 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 | CPU | 64-bit dual-core processor |
 | RAM | 8 GB Minimum |
 | Storage | At least 40 GB of free disk space |
-| Internet Connection | --- |
+| Internet Connection | Required |
 
 
 ### Software Requirements
