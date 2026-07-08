@@ -75,8 +75,8 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 2. Click and Download the installer for Windows hosts. <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
 2. Run the VirtualBox installer.
 3. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
-5. If prompted, allow drivers or adapters to install.
-6. Finish the installation and open VirtualBox.
+4. If prompted, allow drivers or adapters to install.
+5. Finish the installation and open VirtualBox.
 
 ### Common Error Troubleshooting: If VirtualBox Installation Fails
 Sometimes, VirtualBox does not install correctly.
@@ -89,6 +89,12 @@ To resolve this:
 5. Reopen VirtualBox.
 
 ## Step 2: Download the Ubuntu Linux ISO
+1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
+2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).<br> Note: This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. <br/> <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />
+3. Run the VirtualBox installer.
+4. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
+5. If prompted, allow drivers or adapters to install.
+6. Finish the installation and open VirtualBox.
 
 ## Step 3: Create a New Virtual Machine
 
