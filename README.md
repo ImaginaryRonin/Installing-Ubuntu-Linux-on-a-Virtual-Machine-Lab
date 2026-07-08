@@ -8,18 +8,19 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 | Section | Purpose |
 | --- | --- |
 | Introduction | --- |
-| Requirements | --- |
+| System Requirements | --- |
+| Prerequisites | --- |
 | Key Terms | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
+| [Step 1: Download and Install VirtualBox](#Step-1-Download-and-Install-VirtualBox) | --- |
+| Step 2: Download the Ubuntu Linux ISO | --- |
+| Step 3: Create a New Virtual Machine | --- |
+| Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory) | --- |
+| Step 5: Configure VM Settings (Creating Virtual Storage) | --- |
+| Step 6: Review VM Settings | --- |
+| Step 7: Start the Virtual Machine | --- |
+| Step 8: Install Ubuntu | --- |
+| Step 9: Restart After Installation | --- |
+| Step 10: Update Ubuntu | --- |
 | Bonus Steps | --- |
 | Common Errors and Troubleshooting | --- |
 | Closing Notes | --- |
