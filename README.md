@@ -27,17 +27,44 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 
 ## System Requirements
 
-### Minimum Hardware Requirements
+### Minimum System Requirements
+| Component | Minimum Requirement |
+| --- | --- |
+| Host Operating System | Windows |
+| CPU | 64-bit dual-core processor |
+| RAM | 8 GB Minimum |
+| Storage | At least 40 GB of free disk space |
+| Internet Connection | --- |
+
 
 ### Software Requirements
+| Software | Minimum Requirement |
+| --- | --- |
+| [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) | --- |
+| [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) | --- |
+
 
 ## Prerequisites
 
-### Prior Knowledge
-### Windows 11
-### Administrator Access
+| Note | Details |
+| --- | --- |
+| Prior Knowledge | This guide is designed for beginner to early intermediates. Advanced Linux or virtualization experience are NOT required. |
+| Windows 11 | This guide is written specifically for a Windows 11 host system.|
+| Administrator Access | VirtualBox may require administrator access to function properly. |
 
 ## Key Terms
+
+| Term | Meaning |
+| --- | --- |
+| Host Machine | --- |
+| Guest Machine | --- |
+| Virtual Machine | --- |
+| Hypervisor | --- |
+| ISO File | --- |
+| Virtual Disk | --- |
+| NAT | --- |
+| Guest Additions | --- |
+| Snapshot | --- |
 
 ## The Guide
 
