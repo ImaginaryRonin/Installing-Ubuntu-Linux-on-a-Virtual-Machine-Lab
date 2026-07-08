@@ -69,13 +69,15 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 # The Guide
 
 ## Step 1: Download and Install VirtualBox
+VirtualBox is the hypervisor or VM manager used in this lab. It allows a host machine to create and run a separate virtual machine (Ubuntu Linux in this case).
+
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
 2. Click and Download the installer for Windows hosts. <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
 2. Run the VirtualBox installer.
 3. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
 5. If prompted, allow drivers or adapters to install.
 6. Finish the installation and open VirtualBox.
-   
+
 ### Common Error Troubleshooting: If VirtualBox Installation Fails
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
@@ -90,17 +92,17 @@ To resolve this:
 
 ## Step 3: Create a New Virtual Machine
 
-#### <u>Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out</u>
+### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)
 
-#### <u>Common Error Troubleshooting: If VM Runs Very Slowly</u>
+### Common Error Troubleshooting: If VM Runs Very Slowly
 
 ## Step 5: Configure VM Settings (Creating Virtual Storage)
 
 ## Step 6: Review VM Settings
 
-#### <u>Common Error Troubleshooting: If VM Does Not Boot From ISO</u>
+### Common Error Troubleshooting: If VM Does Not Boot From ISO
 
 ## Step 7: Start the Virtual Machine
 
@@ -108,16 +110,16 @@ To resolve this:
 
 ## Step 9: Restart After Installation
 
-#### <u>Common Error Troubleshooting: If VM Boots Back Into the Installer</u>
+### Common Error Troubleshooting: If VM Boots Back Into the Installer
 
 ## Step 10: Update Ubuntu
 
-#### <u>Common Error Troubleshooting: If Password Does Not Appear When Typing</u>
+### Common Error Troubleshooting: If Password Does Not Appear When Typing</u>
 
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
-#### Common Error Troubleshooting: If Screen Resolution is Too Small
+### Common Error Troubleshooting: If Screen Resolution is Too Small
 ## Bonus Steps 2: Enable Shared Clipboard
 ## Bonus Steps 3: Take a Snapshot
 ## Bonus Steps 4: Verify Basic Linux Functionality
