@@ -76,7 +76,7 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 5. If prompted, allow drivers or adapters to install.
 6. Finish the installation and open VirtualBox.
    
-#### **Common Error Troubleshooting: If VirtualBox Installation Fails**
+### Common Error Troubleshooting: If VirtualBox Installation Fails
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
 To resolve this:
