@@ -71,7 +71,7 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 ## Step 1: Download and Install VirtualBox
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
 
-2. Click and Download the installer for Windows hosts. <img width="1100" height="720" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
+2. Click and Download the installer for Windows hosts. <img width="1080" height="720" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
 
 2. Run the installer
 3. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
