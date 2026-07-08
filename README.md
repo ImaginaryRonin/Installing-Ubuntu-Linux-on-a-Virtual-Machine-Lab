@@ -75,7 +75,8 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 3. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
 5. If prompted, allow drivers or adapters to install.
 6. Finish the installation and open VirtualBox.
-#### Common Error Troubleshooting: If VirtualBox Installation Fails
+   
+#### <u>Common Error Troubleshooting: If VirtualBox Installation Fails</u>
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
 To resolve this:
@@ -89,17 +90,17 @@ To resolve this:
 
 ## Step 3: Create a New Virtual Machine
 
-#### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
+#### <u>Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out</u>
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)
 
-#### Common Error Troubleshooting: If VM Runs Very Slowly
+#### <u>Common Error Troubleshooting: If VM Runs Very Slowly</u>
 
 ## Step 5: Configure VM Settings (Creating Virtual Storage)
 
 ## Step 6: Review VM Settings
 
-#### Common Error Troubleshooting: If VM Does Not Boot From ISO
+#### <u>Common Error Troubleshooting: If VM Does Not Boot From ISO</u>
 
 ## Step 7: Start the Virtual Machine
 
@@ -107,11 +108,11 @@ To resolve this:
 
 ## Step 9: Restart After Installation
 
-#### Common Error Troubleshooting: If VM Boots Back Into the Installer
+#### <u>Common Error Troubleshooting: If VM Boots Back Into the Installer</u>
 
 ## Step 10: Update Ubuntu
 
-#### Common Error Troubleshooting: If Password Does Not Appear When Typing
+#### <u>Common Error Troubleshooting: If Password Does Not Appear When Typing</u>
 
 
 # Bonus Steps
