@@ -79,35 +79,44 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 6. Finish the installation and open VirtualBox.
 
 ##### Common Error Troubleshooting: If VirtualBox Installation Fails
-
+<hr>
 ### Step 2: Download the Ubuntu Linux ISO
 
+<hr>
 ### Step 3: Create a New Virtual Machine
 
 ##### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
 
+<hr>
 ### Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)
 
 ##### Common Error Troubleshooting: If VM Runs Very Slowly
 
+<hr>
 ### Step 5: Configure VM Settings (Creating Virtual Storage)
 
+<hr>
 ### Step 6: Review VM Settings
 
 ##### Common Error Troubleshooting: If VM Does Not Boot From ISO
 
+<hr>
 ### Step 7: Start the Virtual Machine
 
+<hr>
 ### Step 8: Install Ubuntu
 
+<hr>
 ### Step 9: Restart After Installation
 
 ##### Common Error Troubleshooting: If VM Boots Back Into the Installer
 
+<hr>
 ### Step 10: Update Ubuntu
 
 ##### Common Error Troubleshooting: If Password Does Not Appear When Typing
 
+<hr>
 ## Bonus Steps
 ### Bonus Steps 1: Install VirtualBox Guest Additions
 ##### Common Error Troubleshooting: If Screen Resolution is Too Small
