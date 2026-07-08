@@ -75,8 +75,15 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 3. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
 5. If prompted, allow drivers or adapters to install.
 6. Finish the installation and open VirtualBox.
-
 ##### Common Error Troubleshooting: If VirtualBox Installation Fails
+Sometimes, VirtualBox does not install correctly.
+This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
+To resolve this:
+    1. Right-click the VirtualBox installer.
+    2. Select **Run as administrator**.
+    3. Run the VirtualBox installer as instructed in Step 1.
+    4. Restart Windows if required.
+    5. Reopen VirtualBox.
 
 ## Step 2: Download the Ubuntu Linux ISO
 
