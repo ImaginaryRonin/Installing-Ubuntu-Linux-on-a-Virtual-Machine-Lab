@@ -7,25 +7,25 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 
 | Section | Purpose |
 | --- | --- |
-| Introduction | --- |
-| System Requirements | --- |
-| Prerequisites | --- |
-| Key Terms | --- |
-| [Step 1: Download and Install VirtualBox](#Step-1-Download-and-Install-VirtualBox) | --- |
-| Step 2: Download the Ubuntu Linux ISO | --- |
-| Step 3: Create a New Virtual Machine | --- |
-| Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory) | --- |
-| Step 5: Configure VM Settings (Creating Virtual Storage) | --- |
-| Step 6: Review VM Settings | --- |
-| Step 7: Start the Virtual Machine | --- |
-| Step 8: Install Ubuntu | --- |
-| Step 9: Restart After Installation | --- |
-| Step 10: Update Ubuntu | --- |
-| Bonus Steps | --- |
-| Common Errors and Troubleshooting | --- |
-| Closing Notes | --- |
+| [Introduction](#introdution) | --- |
+| [System Requirements](#system-requirements) | --- |
+| [Prerequisites](#prerequisites) | --- |
+| [Key Terms](#key-terms) | --- |
+| [Step 1: Download and Install VirtualBox](#step-1-download-and-install-virtualbox) | --- |
+| [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | --- |
+| [Step 3: Create a New Virtual Machine](#step-3-create-a-new-virtual-machine) | --- |
+| [Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-and-memory) | --- |
+| [Step 5: Configure VM Settings (Creating Virtual Storage)](#step-5-configure-vm-settings-creating-virtual-storage) | --- |
+| [Step 6: Review VM Settings](#step-6-review-vm-settings) | --- |
+| [Step 7: Start the Virtual Machine](#step-7-start-the-virtual-machine) | --- |
+| [Step 8: Install Ubuntu](#step-8-install-ubuntu) | --- |
+| [Step 9: Restart After Installation](#step-9-restart-after-installation) | --- |
+| [Step 10: Update Ubuntu](#step-10-update-ubuntu) | --- |
+| [Bonus Steps](#bonus-steps) | --- |
+| [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | --- |
+| [Closing Notes](#closing-notes) | --- |
 
-## Requirements
+## System Requirements
 
 ### Minimum Hardware Requirements
 
