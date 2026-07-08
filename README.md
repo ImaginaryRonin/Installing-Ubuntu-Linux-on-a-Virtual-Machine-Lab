@@ -66,9 +66,9 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 | Guest Additions | --- |
 | Snapshot | --- |
 
-## The Guide
+# The Guide
 
-### Step 1: Download and Install VirtualBox
+## Step 1: Download and Install VirtualBox
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
 
 2. Click and Download the installer for Windows hosts. <img width="1257" height="722" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
@@ -79,50 +79,50 @@ A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual mach
 6. Finish the installation and open VirtualBox.
 
 ##### Common Error Troubleshooting: If VirtualBox Installation Fails
-<hr><hr/>
-### Step 2: Download the Ubuntu Linux ISO
 
-<hr><hr/>
-### Step 3: Create a New Virtual Machine
+## Step 2: Download the Ubuntu Linux ISO
+
+
+## Step 3: Create a New Virtual Machine
 
 ##### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
 
-<hr><hr/>
-### Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)
+
+## Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)
 
 ##### Common Error Troubleshooting: If VM Runs Very Slowly
 
-<hr><hr/>
-### Step 5: Configure VM Settings (Creating Virtual Storage)
 
-<hr><hr/>
-### Step 6: Review VM Settings
+## Step 5: Configure VM Settings (Creating Virtual Storage)
+
+
+## Step 6: Review VM Settings
 
 ##### Common Error Troubleshooting: If VM Does Not Boot From ISO
 
-<hr><hr/>
-### Step 7: Start the Virtual Machine
 
-<hr><hr/>
-### Step 8: Install Ubuntu
+## Step 7: Start the Virtual Machine
 
-<hr><hr/>
-### Step 9: Restart After Installation
+
+## Step 8: Install Ubuntu
+
+
+## Step 9: Restart After Installation
 
 ##### Common Error Troubleshooting: If VM Boots Back Into the Installer
 
-<hr><hr/>
-### Step 10: Update Ubuntu
+
+## Step 10: Update Ubuntu
 
 ##### Common Error Troubleshooting: If Password Does Not Appear When Typing
 
-<hr><hr/>
-## Bonus Steps
-### Bonus Steps 1: Install VirtualBox Guest Additions
+
+# Bonus Steps
+## Bonus Steps 1: Install VirtualBox Guest Additions
 ##### Common Error Troubleshooting: If Screen Resolution is Too Small
-### Bonus Steps 2: Enable Shared Clipboard
-### Bonus Steps 3: Take a Snapshot
-### Bonus Steps 4: Verify Basic Linux Functionality
+## Bonus Steps 2: Enable Shared Clipboard
+## Bonus Steps 3: Take a Snapshot
+## Bonus Steps 4: Verify Basic Linux Functionality
 
 ## Common Errors and Troubleshooting
 ### Error: Ubuntu Has No Internet Connection
