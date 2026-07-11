@@ -92,7 +92,7 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 4. If prompted, allow drivers or adapters to install.
 5. Finish the installation and open VirtualBox.
 
-### Common Error Troubleshooting: If VirtualBox Installation Fails
+#### [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
 To resolve this:
@@ -117,7 +117,7 @@ To resolve this:
 6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
 7. Uncheck the box that says Proceed with Unattended Installation.
 
-### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
+#### [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
 1. Click the Specify hardware section, and it will show more options
@@ -132,7 +132,7 @@ Note: DO NOT select any amount of memory or CPU cores that are over the red sect
 7. Review the VM Setting you changed and ensure they are correct.
 8. Click the Finish button
 
-### Common Error Troubleshooting: If VM Runs Very Slowly
+#### [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)
 
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
@@ -146,7 +146,7 @@ Right-click this new option and select the settings option from the menu, it sho
 
 
 
-### Common Error Troubleshooting: If VM Does Not Boot From ISO
+#### [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)
 
 ## Step 6: Start the Virtual Machine
 
@@ -154,26 +154,39 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Step 8: Restart After Installation
 
-### Common Error Troubleshooting: If VM Boots Back Into the Installer
+#### [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
 
 ## Step 9: Update Ubuntu
 
-### Common Error Troubleshooting: If Password Does Not Appear When Typing</u>
-
+#### [Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)
+#### [Common Error 7: Ubuntu Has No Internet Connection](#common-error-7-ubuntu-has-no-internet-connection)
+#### [Common Error 8: VM Freezes or Becomes Unresponsive](#common-error-8-vm-freezes-or-becomes-unresponsive)
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
-### Common Error Troubleshooting: If Screen Resolution is Too Small
+#### [Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)
+#### [Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)
+
 ## Bonus Steps 2: Enable Shared Clipboard
+#### [Common Error 11: Shared Clipboard Does Not Work](#common-error-11-shared-clipboard-does-not-work)
+
 ## Bonus Steps 3: Take a Snapshot
+
 ## Bonus Steps 4: Verify Basic Linux Functionality
 
-## Common Errors and Troubleshooting
-### Error: Ubuntu Has No Internet Connection
-### Error: VM Freezes or Becomes Unresponsive
-### Error: Guest Additions Fail on Install
-### Error: Shared Clipboard Does Not Work
-### Error: Virtualization is Disabled
+## Troubleshooting
+### Common Error 1: VirtualBox Installation Fails
+### Common Error 2: If Ubuntu 64-bit Option is Missing or Greyed-out
+### Common Error 3: If VM Runs Very Slowly
+### Common Error 4: If VM Does Not Boot From ISO
+### Common Error 5: If VM Boots Back Into the Installer
+### Common Error 6: If Password Does Not Appear When Typing</u>
+### Common Error 7: Ubuntu Has No Internet Connection
+### Common Error 8: VM Freezes or Becomes Unresponsive
+### Common Error 9: If Screen Resolution is Too Small
+### Common Error 10: Guest Additions Fail on Install
+### Common Error 11: Shared Clipboard Does Not Work
+### Common Error 12: Virtualization is Disabled
 
 ## Closing Notes
 
