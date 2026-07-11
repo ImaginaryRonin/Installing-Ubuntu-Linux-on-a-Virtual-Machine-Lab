@@ -155,13 +155,16 @@ Right-click this new option and select the settings option from the menu, it sho
 ## Step 9: Update Ubuntu
 
 [Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)   
+
 [Common Error 7: Ubuntu Has No Internet Connection](#common-error-7-ubuntu-has-no-internet-connection)   
+
 [Common Error 8: VM Freezes or Becomes Unresponsive](#common-error-8-vm-freezes-or-becomes-unresponsive)   
 
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
 [Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)   
+
 [Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)   
 
 
@@ -183,6 +186,7 @@ To resolve this:
 3. Run the VirtualBox installer as instructed in Step 1.
 4. Restart Windows if required.
 5. Reopen VirtualBox.
+   
 ### Common Error 2: Ubuntu 64-bit Option is Missing or Greyed-out
 ### Common Error 3: VM Runs Very Slowly
 ### Common Error 4: VM Does Not Boot From ISO
