@@ -111,38 +111,39 @@ To resolve this:
 6. Finish the installation and open VirtualBox.
 
 ## Step 3: Create a New Virtual Machine
-Click new in the top left corner on VirtualBox (the blue spiked circle).
-Type out a name for the specific virtual machine in the VM Name box.
-Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
-Select the option that says Other... It should open up a file explorer page.
-Navigate to where you downloaded the Ubuntu ISO file and double click it.
-Uncheck the box that says Proceed with Unattended Installation.
+1. Click new in the top left corner on VirtualBox (the blue spiked circle).
+2. Type out a name for the specific virtual machine in the VM Name box.
+3. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
+4. Select the option that says Other... It should open up a file explorer page.
+5. Navigate to where you downloaded the Ubuntu ISO file and double click it.
+6. Uncheck the box that says Proceed with Unattended Installation.
 
 ### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
-Click the Specify hardware section, and it will show more options.
-For base memory, select at least 2048 MB. Note: There is diminishing returns after 4096 MB.
-As for Number of CPUs, put in at least 2 cores. Note: There is diminishing returns after 4 cores.
-DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
+1. Click the Specify hardware section, and it will show more options
+2. For base memory, select at least 2048 MB. Note: There is diminishing returns after 4096 MB.
+3. As for Number of CPUs, put in at least 2 cores. Note: There is diminishing returns after 4 cores.
 
-Click the Specify virtual hard disk section.
-There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
-Click it and put in 30 GB.
-Review the VM Setting you changed and ensure they are correct.
-Click the Finish button
+Note: DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
+
+4. Click the Specify virtual hard disk section.
+5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
+6. Click it and put in 30 GB.
+7. Review the VM Setting you changed and ensure they are correct.
+8. Click the Finish button
 
 ### Common Error Troubleshooting: If VM Runs Very Slowly
 
 ## Step 5: Modify Advanced VM Settings
-There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.
-Right-click it and select the settings option from the menu, it should pop up a settings menu.
-In the side bar, click the option on the list that says Display.
-Set the Video Memory to 128 MB.
-Click the side bar option that says Network.
-Click the 'Attached to' box, and select 'Bridged Adapter.'
-Review the settings we changed, and ensure they are correct.
-Hit OK.
+1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
+Right-click this new option and select the settings option from the menu, it should pop up a settings menu.
+2. In the side bar, click the option on the list that says Display.
+3. Set the Video Memory to 128 MB.
+4. Click the side bar option that says Network.
+5. Click the 'Attached to' box, and select 'Bridged Adapter.'
+6. Review the settings we changed, and ensure they are correct.
+7. Hit OK.
 
 
 
