@@ -6,7 +6,6 @@ This lab is a structured guide for installing and setting up Ubuntu Linux on a V
 
 Prior experience with Linux or virtualization is **not required**.  
 
-
 #### Before proceeding with this lab, the user should have:
 - Basic Windows 11 navigation knowledge
 - Understanding that this guide is written specifically for a Windows 11 host system
@@ -28,9 +27,10 @@ By completing this lab, the user will:
 
 | Section | Purpose |
 | --- | --- |
-| [Introduction](#introduction) | --- |
+| [Introduction](#installing-ubuntu-linux-on-a-virtual-machine) | --- |
+| [Before You Begin](#before-you-begin) | --- |
+| [Skills Achieved](#skills-achieved) | --- |
 | [System Requirements](#system-requirements) | --- |
-| [Prerequisites](#prerequisites) | --- |
 | [Key Terms](#key-terms) | --- |
 | [Step 1: Download and Install VirtualBox](#step-1-download-and-install-virtualbox) | --- |
 | [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | --- |
@@ -64,14 +64,6 @@ By completing this lab, the user will:
 | [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) | --- |
 | [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) | --- |
 
-
-## Prerequisites
-
-| Note | Details |
-| --- | --- |
-| Prior Knowledge | This guide is designed for beginner to early intermediates. Advanced Linux or virtualization experience are NOT required. |
-| Windows 11 | This guide is written specifically for a Windows 11 host system.|
-| Administrator Access | VirtualBox may require administrator access to function properly. |
 
 ## Key Terms
 
