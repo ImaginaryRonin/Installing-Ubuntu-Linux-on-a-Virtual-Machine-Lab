@@ -167,8 +167,8 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Bonus Steps 4: Verify Basic Linux Functionality
 
-## Troubleshooting
-### Common Error 1: VirtualBox Installation Fails
+# Troubleshooting
+## Common Error 1: VirtualBox Installation Fails
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
 To resolve this:
@@ -177,19 +177,19 @@ To resolve this:
 3. Run the VirtualBox installer as instructed in Step 1.
 4. Restart Windows if required.
 5. Reopen VirtualBox.
-### Common Error 2: Ubuntu 64-bit Option is Missing or Greyed-out
-### Common Error 3: VM Runs Very Slowly
-### Common Error 4: VM Does Not Boot From ISO
-### Common Error 5: VM Boots Back Into the Installer
-### Common Error 6: Password Does Not Appear When Typing</u>
-### Common Error 7: Ubuntu Has No Internet Connection
-### Common Error 8: VM Freezes or Becomes Unresponsive
-### Common Error 9: Screen Resolution is Too Small
-### Common Error 10: Guest Additions Fail on Install
-### Common Error 11: Shared Clipboard Does Not Work
-### Common Error 12: Virtualization is Disabled
+## Common Error 2: Ubuntu 64-bit Option is Missing or Greyed-out
+## Common Error 3: VM Runs Very Slowly
+## Common Error 4: VM Does Not Boot From ISO
+## Common Error 5: VM Boots Back Into the Installer
+## Common Error 6: Password Does Not Appear When Typing</u>
+## Common Error 7: Ubuntu Has No Internet Connection
+## Common Error 8: VM Freezes or Becomes Unresponsive
+## Common Error 9: Screen Resolution is Too Small
+## Common Error 10: Guest Additions Fail on Install
+## Common Error 11: Shared Clipboard Does Not Work
+## Common Error 12: Virtualization is Disabled
 
-## Closing Notes
+# Closing Notes
 
 
 
