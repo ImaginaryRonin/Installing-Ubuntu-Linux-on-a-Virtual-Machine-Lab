@@ -93,14 +93,7 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 5. Finish the installation and open VirtualBox.
 
 #### [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)
-Sometimes, VirtualBox does not install correctly.
-This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
-To resolve this:
-1. Right-click the VirtualBox installer.
-2. Select **Run as administrator**.
-3. Run the VirtualBox installer as instructed in Step 1.
-4. Restart Windows if required.
-5. Reopen VirtualBox.
+
 
 ## Step 2: Download the Ubuntu Linux ISO
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
@@ -176,6 +169,14 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Troubleshooting
 ### Common Error 1: VirtualBox Installation Fails
+Sometimes, VirtualBox does not install correctly.
+This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
+To resolve this:
+1. Right-click the VirtualBox installer.
+2. Select **Run as administrator**.
+3. Run the VirtualBox installer as instructed in Step 1.
+4. Restart Windows if required.
+5. Reopen VirtualBox.
 ### Common Error 2: If Ubuntu 64-bit Option is Missing or Greyed-out
 ### Common Error 3: If VM Runs Very Slowly
 ### Common Error 4: If VM Does Not Boot From ISO
