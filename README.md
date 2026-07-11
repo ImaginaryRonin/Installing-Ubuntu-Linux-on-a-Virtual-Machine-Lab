@@ -176,7 +176,7 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Bonus Steps 4: Verify Basic Linux Functionality
 
-## Troubleshooting
+# Troubleshooting
 ### Common Error 1: VirtualBox Installation Fails
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
