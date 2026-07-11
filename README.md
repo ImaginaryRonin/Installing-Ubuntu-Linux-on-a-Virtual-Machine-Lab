@@ -2,7 +2,7 @@
 This lab is a structured guide for installing and setting up Ubuntu Linux on a VirtualBox virtual machine.  
 
 ## Before You Begin
-**Difficulty Level:** Early to Intermediate
+**Difficulty Level:** Beginner to Early Intermediate
 Prior experience with Linux or virtualization is **not required**.
 
 Before proceeding with this lab, the user should have:
@@ -16,11 +16,11 @@ By completing this lab, the user will:
 - Install Ubuntu Linux from an ISO file
 - Allocate CPU, memory, and virtual storage resources
 - Understand the difference between host and guest systems
-- Review boot, display, storage and network settings
+- Review boot, display, storage, and network settings
 - Update Ubuntu using Linux terminal commands
 - Troubleshoot common virtual machine installation and performance issues
 - Document a repeatable technical process for an IT portfolio
-- Acquire a Ubuntu virtual machine that can be used for Linux command practice, networking labs, scripting exercises, cybersecurity tools, and future system administration projects.
+- Build a functioning Ubuntu virtual machine that can be used for Linux command practice, networking labs, scripting exercises, cybersecurity tools, and future system administration projects.
 
 ## Table of Contents
 
