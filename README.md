@@ -7,7 +7,7 @@ This lab is a structured guide for installing and setting up Ubuntu Linux on a V
 Prior experience with Linux or virtualization is **not required**.
 
 
-Before proceeding with this lab, the user should have:
+###### Before proceeding with this lab, the user should have:
 - Basic Windows 11 navigation knowledge
 - Understanding that this guide is written specifically for a Windows 11 host system
 - Administrator access on their host machine
