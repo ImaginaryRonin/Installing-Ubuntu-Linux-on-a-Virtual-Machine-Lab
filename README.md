@@ -27,21 +27,19 @@ By completing this lab, the user will:
 
 | Section | Purpose |
 | --- | --- |
-| [Introduction](#installing-ubuntu-linux-on-a-virtual-machine) | --- |
-| [Before You Begin](#before-you-begin) | --- |
-| [Skills Achieved](#skills-achieved) | --- |
-| [System Requirements](#system-requirements) | --- |
-| [Key Terms](#key-terms) | --- |
-| [Step 1: Download and Install VirtualBox](#step-1-download-and-install-virtualbox) | --- |
-| [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | --- |
+| [Before You Begin](#before-you-begin) | The difficulty level, expected starting knowledge, and level of access required prior to starting the lab. |
+| [Skills Achieved](#skills-achieved) | A summary of the technical skills demonstrated by completing the lab. |
+| [System Requirements](#system-requirements) | Lists the hardware and software requirements. |
+| [Key Terms](#key-terms) | An explanation of important terms used throughout the guide. |
+| [Step 1: Download and Install VirtualBox](#step-1-download-and-install-virtualbox) | Installation of the hypervisor used to create and manage VMs. |
+| [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | Instructions on how to download the operating system ISO.  |
 | [Step 3: Create a New Virtual Machine](#step-3-create-a-new-virtual-machine) | --- |
-| [Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-and-memory) | --- |
-| [Step 5: Configure VM Settings (Creating Virtual Storage)](#step-5-configure-vm-settings-creating-virtual-storage) | --- |
-| [Step 6: Review VM Settings](#step-6-review-vm-settings) | --- |
-| [Step 7: Start the Virtual Machine](#step-7-start-the-virtual-machine) | --- |
-| [Step 8: Install Ubuntu](#step-8-install-ubuntu) | --- |
-| [Step 9: Restart After Installation](#step-9-restart-after-installation) | --- |
-| [Step 10: Update Ubuntu](#step-10-update-ubuntu) | --- |
+| [Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-ram-and-virtual-storage) | --- |
+| [Step 5: Modify Advanced VM Settings](#step-6-modify-advanced-vm-settings) | --- |
+| [Step 6: Start the Virtual Machine](#step-7-start-the-virtual-machine) | --- |
+| [Step 7: Install Ubuntu](#step-8-install-ubuntu) | --- |
+| [Step 8: Restart After Installation](#step-9-restart-after-installation) | --- |
+| [Step 9: Update Ubuntu](#step-10-update-ubuntu) | --- |
 | [Bonus Steps](#bonus-steps) | --- |
 | [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | --- |
 | [Closing Notes](#closing-notes) | --- |
@@ -69,6 +67,9 @@ By completing this lab, the user will:
 
 | Term | Meaning |
 | --- | --- |
+| VM | Virtual Machine |
+| OS | Operating System |
+| ISO | A disk image file, used commonly to store operating systems and other disk data. |
 | Host Machine | --- |
 | Guest Machine | --- |
 | Virtual Machine | --- |
@@ -110,28 +111,52 @@ To resolve this:
 6. Finish the installation and open VirtualBox.
 
 ## Step 3: Create a New Virtual Machine
+Click new in the top left corner on VirtualBox (the blue spiked circle).
+Type out a name for the specific virtual machine in the VM Name box.
+Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
+Select the option that says Other... It should open up a file explorer page.
+Navigate to where you downloaded the Ubuntu ISO file and double click it.
+Uncheck the box that says Proceed with Unattended Installation.
 
 ### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
 
-## Step 4: Configure VM Settings (Allocating VM CPU Processors and Memory)
+## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
+Click the Specify hardware section, and it will show more options.
+For base memory, select at least 2048 MB. Note: There is diminishing returns after 4096 MB.
+As for Number of CPUs, put in at least 2 cores. Note: There is diminishing returns after 4 cores.
+DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
+
+Click the Specify virtual hard disk section.
+There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
+Click it and put in 30 GB.
+Review the VM Setting you changed and ensure they are correct.
+Click the Finish button
 
 ### Common Error Troubleshooting: If VM Runs Very Slowly
 
-## Step 5: Configure VM Settings (Creating Virtual Storage)
+## Step 5: Modify Advanced VM Settings
+There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.
+Right-click it and select the settings option from the menu, it should pop up a settings menu.
+In the side bar, click the option on the list that says Display.
+Set the Video Memory to 128 MB.
+Click the side bar option that says Network.
+Click the 'Attached to' box, and select 'Bridged Adapter.'
+Review the settings we changed, and ensure they are correct.
+Hit OK.
 
-## Step 6: Review VM Settings
+
 
 ### Common Error Troubleshooting: If VM Does Not Boot From ISO
 
-## Step 7: Start the Virtual Machine
+## Step 6: Start the Virtual Machine
 
-## Step 8: Install Ubuntu
+## Step 7: Install Ubuntu
 
-## Step 9: Restart After Installation
+## Step 8: Restart After Installation
 
 ### Common Error Troubleshooting: If VM Boots Back Into the Installer
 
-## Step 10: Update Ubuntu
+## Step 9: Update Ubuntu
 
 ### Common Error Troubleshooting: If Password Does Not Appear When Typing</u>
 
