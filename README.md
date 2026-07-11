@@ -92,7 +92,7 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 4. If prompted, allow drivers or adapters to install.
 5. Finish the installation and open VirtualBox.
 
-[Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)
+[Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)  
 
 
 ## Step 2: Download the Ubuntu Linux ISO
@@ -111,7 +111,7 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
 7. Uncheck the box that says Proceed with Unattended Installation.
 
-[Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)
+[Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
 
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
@@ -127,7 +127,7 @@ Note: DO NOT select any amount of memory or CPU cores that are over the red sect
 7. Review the VM Setting you changed and ensure they are correct.
 8. Click the Finish button
 
-[Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)
+[Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
 
 ## Step 5: Modify Advanced VM Settings
@@ -140,7 +140,7 @@ Right-click this new option and select the settings option from the menu, it sho
 6. Review the settings we changed, and ensure they are correct.
 7. Hit OK.
 
-[Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)
+[Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
 
 
 ## Step 6: Start the Virtual Machine
@@ -154,15 +154,15 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Step 9: Update Ubuntu
 
-[Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)
-[Common Error 7: Ubuntu Has No Internet Connection](#common-error-7-ubuntu-has-no-internet-connection)
-[Common Error 8: VM Freezes or Becomes Unresponsive](#common-error-8-vm-freezes-or-becomes-unresponsive)
+[Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)   
+[Common Error 7: Ubuntu Has No Internet Connection](#common-error-7-ubuntu-has-no-internet-connection)   
+[Common Error 8: VM Freezes or Becomes Unresponsive](#common-error-8-vm-freezes-or-becomes-unresponsive)   
 
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
-[Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)
-[Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)
+[Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)   
+[Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)   
 
 
 ## Bonus Steps 2: Enable Shared Clipboard
