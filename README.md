@@ -3,6 +3,7 @@ This lab is a structured guide for installing and setting up Ubuntu Linux on a V
 
 ## Before You Begin
 **Difficulty Level:** Beginner to Early Intermediate
+
 Prior experience with Linux or virtualization is **not required**.
 
 Before proceeding with this lab, the user should have:
