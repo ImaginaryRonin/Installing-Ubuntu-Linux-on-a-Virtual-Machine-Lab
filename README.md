@@ -1,7 +1,26 @@
 # Installing Ubuntu Linux on a Virtual Machine
-A beginner-friendly lab for installing Ubuntu Linux on a VirtualBox virtual machine and basic Linux setup.
+This lab is a structured guide for installing and setting up Ubuntu Linux on a VirtualBox virtual machine.
 
-## Introduction
+## Before You Begin
+**Difficulty Level:** Early to Intermediate
+Prior experience with Linux or virtualization is **not required**.
+
+Before proceeding with this lab, the user should have:
+- Basic Windows 11 navigation knowledge
+- Understanding that this guide is written specifically for a Windows 11 host system
+- Administrator access on their host machine
+
+## Skills Achieved
+By completing this lab, the user will:
+- Create and configure a virtual machine
+- Install Ubuntu Linux from an ISO file
+- Allocate CPU, memory, and virtual storage resources
+- Understand the difference between host and guest systems
+- Review boot, display, storage and network settings
+- Update Ubuntu using Linux terminal commands
+- Troubleshoot common virtual machine installation and performance issues
+- Document a repeatable technical process for an IT portfolio
+- Acquire a Ubuntu virtual machine that can be used for Linux command practice, networking labs, scripting exercises, cybersecurity tools, and future system administration projects.
 
 ## Table of Contents
 
