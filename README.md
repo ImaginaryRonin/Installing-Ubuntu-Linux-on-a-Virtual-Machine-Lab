@@ -1,6 +1,7 @@
 # Installing Ubuntu Linux on a Virtual Machine
 This lab is a structured guide for installing and setting up Ubuntu Linux on a VirtualBox virtual machine.
 
+
 ## Before You Begin
 **Difficulty Level:** Early to Intermediate
 Prior experience with Linux or virtualization is **not required**.
