@@ -35,11 +35,11 @@ By completing this lab, the user will:
 | [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | Instructions on how to download the operating system ISO.  |
 | [Step 3: Create a New Virtual Machine](#step-3-create-a-new-virtual-machine) | --- |
 | [Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-ram-and-virtual-storage) | --- |
-| [Step 5: Modify Advanced VM Settings](#step-6-modify-advanced-vm-settings) | --- |
-| [Step 6: Start the Virtual Machine](#step-7-start-the-virtual-machine) | --- |
-| [Step 7: Install Ubuntu](#step-8-install-ubuntu) | --- |
-| [Step 8: Restart After Installation](#step-9-restart-after-installation) | --- |
-| [Step 9: Update Ubuntu](#step-10-update-ubuntu) | --- |
+| [Step 5: Modify Advanced VM Settings](#step-5-modify-advanced-vm-settings) | --- |
+| [Step 6: Start the Virtual Machine](#step-6-start-the-virtual-machine) | --- |
+| [Step 7: Install Ubuntu](#step-7-install-ubuntu) | --- |
+| [Step 8: Restart After Installation](#step-8-restart-after-installation) | --- |
+| [Step 9: Update Ubuntu](#step-9-update-ubuntu) | --- |
 | [Bonus Steps](#bonus-steps) | --- |
 | [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | --- |
 | [Closing Notes](#closing-notes) | --- |
@@ -105,18 +105,17 @@ To resolve this:
 ## Step 2: Download the Ubuntu Linux ISO
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
 2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).<br> Note: This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. <br/> <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />
-3. Run the VirtualBox installer.
-4. Accept the default installation options. <br> Note: You may get a few warning messages. This is okay, just click 'yes' for them. <br/> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
-5. If prompted, allow drivers or adapters to install.
-6. Finish the installation and open VirtualBox.
+3. Download the Ubuntu ISO file.
+4. Save the ISO file in an easy-to-find location, like the Downloads folder.
 
 ## Step 3: Create a New Virtual Machine
-1. Click new in the top left corner on VirtualBox (the blue spiked circle).
-2. Type out a name for the specific virtual machine in the VM Name box.
-3. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
-4. Select the option that says Other... It should open up a file explorer page.
-5. Navigate to where you downloaded the Ubuntu ISO file and double click it.
-6. Uncheck the box that says Proceed with Unattended Installation.
+1. Open Oracle VirtualBox
+2. Click new in the top left corner on VirtualBox (the blue spiked circle).
+3. Type out a name for the specific virtual machine in the VM Name box.
+4. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
+5. Select the option that says Other... It should open up a file explorer page.
+6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
+7. Uncheck the box that says Proceed with Unattended Installation.
 
 ### Common Error Troubleshooting: If Ubuntu 64-bit Option is Missing or Greyed-out
 
