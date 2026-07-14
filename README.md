@@ -103,7 +103,12 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 
 ## Step 2: Download the Ubuntu Linux ISO
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
-2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).<br> Note: This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. <br/> <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />
+2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).
+
+**Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. 
+
+<img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />
+
 3. Download the Ubuntu ISO file.
 4. Save the ISO file in an easy-to-find location, like the Downloads folder.
 
@@ -123,17 +128,17 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
 1. Click the Specify hardware section, and it will show more options
 2. For base memory, select at least 2048 MB.
-<details> 
-   Note: There is diminishing returns after 4096 MB.
-</details>
-3. As for Number of CPUs, put in at least 2 cores. 
-<details>
-   Note: There is diminishing returns after 4 cores.
-</details>
 
-<details>
-Note: DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
-</details>
+   **Note:** There is diminishing returns after 4096 MB.
+
+3. As for Number of CPUs, put in at least 2 cores. 
+
+   **Note:** There is diminishing returns after 4 cores.
+
+
+
+**Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
+
 
 4. Click the Specify virtual hard disk section.
 5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
