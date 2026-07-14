@@ -93,8 +93,9 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 **Note:** You may get a few warning messages. This is okay, just click 'yes' for them.
 
 <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
-4. If prompted, allow drivers or adapters to install.
-5. Finish the installation and open VirtualBox.
+
+4. If prompted, allow drivers or adapters to install.  
+5. Finish the installation and open VirtualBox.  
 
 [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)  
 
