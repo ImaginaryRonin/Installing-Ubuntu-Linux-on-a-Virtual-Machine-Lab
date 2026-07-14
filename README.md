@@ -130,7 +130,7 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
-1. Click the Specify hardware section, and it will show more options
+1. Click the Specify virtual hardware section, and it will show more options
 2. For base memory, select at least 2048 MB.
 
    **Note:** There is diminishing returns after 4096 MB.  
