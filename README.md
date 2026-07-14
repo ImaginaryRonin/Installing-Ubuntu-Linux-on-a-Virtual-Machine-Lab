@@ -140,7 +140,7 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
    **Note:** There is diminishing returns after 4 cores.
 
   <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />
-
+  
 **Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer.
 
 
