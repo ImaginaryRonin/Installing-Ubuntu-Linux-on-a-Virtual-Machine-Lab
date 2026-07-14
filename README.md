@@ -122,7 +122,9 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
    <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" />
 5. Select the option that says Other... It should open up a file explorer page.
 6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
+   <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" />
 7. Uncheck the box that says Proceed with Unattended Installation.
+  <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" />
 
 [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
 
@@ -131,22 +133,23 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 1. Click the Specify hardware section, and it will show more options
 2. For base memory, select at least 2048 MB.
 
-   **Note:** There is diminishing returns after 4096 MB.
+   **Note:** There is diminishing returns after 4096 MB.  
 
 3. As for Number of CPUs, put in at least 2 cores. 
 
    **Note:** There is diminishing returns after 4 cores.
 
+  <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />
 
-
-**Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
+**Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer.
 
 
 4. Click the Specify virtual hard disk section.
 5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
-6. Click it and put in 30 GB.
+6. Click it and put in 30 GB; this should be more than enough for this lab.
+    <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" />
 7. Review the VM Setting you changed and ensure they are correct.
-8. Click the Finish button
+8. Click the Finish button.
 
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
@@ -154,12 +157,15 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
 Right-click this new option and select the settings option from the menu, it should pop up a settings menu.
-2. In the side bar, click the option on the list that says Display.
-3. Set the Video Memory to 128 MB.
-4. Click the side bar option that says Network.
-5. Click the 'Attached to' box, and select 'Bridged Adapter.'
-6. Review the settings we changed, and ensure they are correct.
-7. Hit OK.
+  <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" />
+  
+3. In the side bar, click the option on the list that says Display.
+4. Set the Video Memory to 128 MB.
+   <img width="1027" height="682" alt="image" src="https://github.com/user-attachments/assets/5c129215-4cb6-4bce-9588-fc3b93a05186" />
+5. Click the side bar option that says Network.
+6. Click the 'Attached to' box, and select 'Bridged Adapter.'
+7. Review the settings we changed, and ensure they are correct.
+8. Hit OK.
 
 [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
 
