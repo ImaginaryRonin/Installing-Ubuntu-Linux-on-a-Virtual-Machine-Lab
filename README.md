@@ -89,8 +89,10 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 2. Click and Download the installer for Windows hosts. <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
 2. Run the VirtualBox installer.
 3. Accept the default installation options.
-<details> Note: You may get a few warning messages. This is okay, just click 'yes' for them.
-</details> <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
+<details> 
+   Note: You may get a few warning messages. This is okay, just click 'yes' for them.
+</details> 
+<img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" /><img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
 4. If prompted, allow drivers or adapters to install.
 5. Finish the installation and open VirtualBox.
 
@@ -118,10 +120,18 @@ VirtualBox is the hypervisor or VM manager used in this lab. It allows a host ma
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
 1. Click the Specify hardware section, and it will show more options
-2. For base memory, select at least 2048 MB. Note: There is diminishing returns after 4096 MB.
-3. As for Number of CPUs, put in at least 2 cores. Note: There is diminishing returns after 4 cores.
+2. For base memory, select at least 2048 MB.
+<details> 
+   Note: There is diminishing returns after 4096 MB.
+</details>
+3. As for Number of CPUs, put in at least 2 cores. 
+<details>
+   Note: There is diminishing returns after 4 cores.
+</details>
 
+<details>
 Note: DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and stress your computer.
+</details>
 
 4. Click the Specify virtual hard disk section.
 5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
