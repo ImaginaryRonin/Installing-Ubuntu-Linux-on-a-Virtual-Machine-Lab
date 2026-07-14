@@ -33,9 +33,9 @@ By completing this lab, the user will:
 | [Key Terms](#key-terms) | An explanation of important terms used throughout the guide. |
 | [Step 1: Download and Install VirtualBox](#step-1-download-and-install-virtualbox) | Installation of the hypervisor used to create and manage VMs. |
 | [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | Instructions on how to download the operating system ISO.  |
-| [Step 3: Create a New Virtual Machine](#step-3-create-a-new-virtual-machine) | --- |
-| [Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-ram-and-virtual-storage) | --- |
-| [Step 5: Modify Advanced VM Settings](#step-5-modify-advanced-vm-settings) | --- |
+| [Step 3: Create a New Virtual Machine](#step-3-create-a-new-virtual-machine) | Creation of the virtual machine using the Ubuntu ISO. |
+| [Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-ram-and-virtual-storage) | Configuring of the VM virtual hardware settings |
+| [Step 5: Modify Advanced VM Settings](#step-5-modify-advanced-vm-settings) | Additonal setting configuration post VM creation. |
 | [Step 6: Start the Virtual Machine](#step-6-start-the-virtual-machine) | --- |
 | [Step 7: Install Ubuntu](#step-7-install-ubuntu) | --- |
 | [Step 8: Restart After Installation](#step-8-restart-after-installation) | --- |
