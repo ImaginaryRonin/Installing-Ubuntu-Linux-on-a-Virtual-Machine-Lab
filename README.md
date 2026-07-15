@@ -121,15 +121,15 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 2. Click new in the top left corner on VirtualBox (the blue spiked circle).
    <img width="1272" height="932" alt="Screenshot 2026-07-08 070248" src="https://github.com/user-attachments/assets/c2590d75-c749-48ad-b12c-332409c65a0e" />
    
-4. Type out a name for the specific virtual machine in the VM Name box.
-5. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
+3. Type out a name for the specific virtual machine in the VM Name box.
+4. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
    <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" />
    
-7. Select the option that says Other... It should open up a file explorer page.  
-8. Navigate to where you downloaded the Ubuntu ISO file and double click it.
+5. Select the option that says Other... It should open up a file explorer page.  
+6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
    <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" />
    
-10. Uncheck the box that says Proceed with Unattended Installation.
+7. Uncheck the box that says Proceed with Unattended Installation.
    <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" />
 
 
