@@ -34,22 +34,22 @@ By completing this lab, the user will:
 | [Step 1: Download and Install VirtualBox](#step-1-download-and-install-virtualbox) | Installation of the hypervisor used to create and manage VMs. |
 | [Step 2: Download the Ubuntu Linux ISO](#step-2-download-the-ubuntu-linux-iso) | Instructions on how to download the operating system ISO.  |
 | [Step 3: Create a New Virtual Machine](#step-3-create-a-new-virtual-machine) | Creation of the virtual machine using the Ubuntu ISO. |
-| [Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-ram-and-virtual-storage) | Configuring of the VM virtual hardware settings |
-| [Step 5: Modify Advanced VM Settings](#step-5-modify-advanced-vm-settings) | Additonal setting configuration post VM creation. |
-| [Step 6: Start the Virtual Machine](#step-6-start-the-virtual-machine) | --- |
-| [Step 7: Install Ubuntu](#step-7-install-ubuntu) | --- |
-| [Step 8: Restart After Installation](#step-8-restart-after-installation) | --- |
-| [Step 9: Update Ubuntu](#step-9-update-ubuntu) | --- |
-| [Bonus Steps](#bonus-steps) | --- |
-| [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | --- |
-| [Closing Notes](#closing-notes) | --- |
+| [Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)](#step-4-configure-vm-settings-allocating-vm-cpu-processors-ram-and-virtual-storage) | Configuring of the VM virtual hardware settings. |
+| [Step 5: Modify Advanced VM Settings](#step-5-modify-advanced-vm-settings) | Adjusts display and network configuration post VM creation. |
+| [Step 6: Start the Virtual Machine](#step-6-start-the-virtual-machine) | Boots the VM with the Ubuntu ISO. |
+| [Step 7: Install Ubuntu](#step-7-install-ubuntu) | Advancing through the Ubuntu Linux Installation process. |
+| [Step 8: Restart After Installation](#step-8-restart-after-installation) | Restarts the VM to ensure Ubuntu reboots properly. |
+| [Step 9: Update Ubuntu](#step-9-update-ubuntu) | Updates Ubuntu using Linux terminal commands. |
+| [Bonus Steps](#bonus-steps) | Optional quality-of-life steps for improving the VM experience. |
+| [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | Common VM issues and support-style fixes. |
+| [Closing Notes](#closing-notes) | Final summary of the lab and how it supports future IT portfolio projects. |
 
 ## System Requirements
 
 ### Minimum System Requirements
 | Component | Minimum Requirement |
 | --- | --- |
-| Host Operating System | Windows |
+| Host Operating System | Windows 11 |
 | CPU | 64-bit dual-core processor |
 | RAM | 8 GB Minimum |
 | Storage | At least 40 GB of free disk space |
@@ -59,31 +59,32 @@ By completing this lab, the user will:
 ### Software Requirements
 | Software | Minimum Requirement |
 | --- | --- |
-| [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) | --- |
-| [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) | --- |
+| [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Creates, manages, and runs multiple virtual machines. |
+| [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) | ISO file used to install Ubuntu Linux on the VM. |
 
 
 ## Key Terms
 
 | Term | Meaning |
 | --- | --- |
-| VM | Virtual Machine |
-| OS | Operating System |
+| VM | Virtual Machine; a software-based computer that is run within another computer. |
+| OS | Operating System; software that manages and displays a computer's hardware and programs   |
 | ISO | A disk image file, used commonly to store operating systems and other disk data. |
-| Host Machine | --- |
-| Guest Machine | --- |
-| Virtual Machine | --- |
-| Hypervisor | --- |
-| ISO File | --- |
-| Virtual Disk | --- |
-| NAT | --- |
-| Guest Additions | --- |
-| Snapshot | --- |
+| Host Machine | The physical computer running the virtual machine. |
+| Guest Machine | The software-defined computer ran by a host machine through a hypervisor.  |
+| Hypervisor | Software that allows users to create, manage, and run virtual machines. In the case of this lab, it is VirtualBox. |
+| Virtual Disk | The simulated storage device used by the VM. |
+| NAT | Network Address Translation; a mode that allows multiple devices in a private local network to share a single IP address. |
+| IP Address | A network address used to identify a device. |
+| Gateway | The network device (typically a router) that sends traffic outside the local network. |
+| SSH | Secure Shell; a network protocol that is used to securely log in to, access, and control remote servers. |
+| Guest Additions | VirtualBox tools that improve screen resizing, clipboard sharing, and mouse integration. |
+| Snapshot | A saved VM state that can be restored later. |
 
 # The Guide
 
 ## Step 1: Download and Install VirtualBox
-VirtualBox is the hypervisor or VM manager used in this lab. It allows a host machine to create and run a separate virtual machine (Ubuntu Linux in this case).
+VirtualBox is the hypervisor or virtual machine manager used in this lab. It allows a host machine to create and run a separate VM (Ubuntu Linux in this case).
 
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
 2. Click and Download the installer for Windows hosts. <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
