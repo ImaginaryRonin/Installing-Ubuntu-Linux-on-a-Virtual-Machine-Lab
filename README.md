@@ -1,5 +1,6 @@
 # Installing Ubuntu Linux on a Virtual Machine
 This lab is a structured guide for installing and setting up Ubuntu Linux on a VirtualBox virtual machine.  
+<br>
 
 ## Before You Begin
 **Difficulty Level:** Beginner to Early Intermediate
@@ -10,6 +11,9 @@ Prior experience with Linux or virtualization is **not required**.
 - Basic Windows 11 navigation knowledge
 - Understanding that this guide is written specifically for a Windows 11 host system
 - Administrator access on their host machine
+  
+<br>
+<br>
 
 ## Skills Achieved
 By completing this lab, the user will:
@@ -22,6 +26,9 @@ By completing this lab, the user will:
 - Troubleshoot common virtual machine installation and performance issues
 - Document a repeatable technical process for an IT portfolio
 - Build a functioning Ubuntu virtual machine that can be used for Linux command practice, networking labs, scripting exercises, cybersecurity tools, and future system administration projects.
+
+<br>
+<br>
 
 ## Table of Contents
 
@@ -44,6 +51,9 @@ By completing this lab, the user will:
 | [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | Common VM issues and support-style fixes. |
 | [Closing Notes](#closing-notes) | Final summary of the lab and how it supports future IT portfolio projects. |
 
+<br>
+<br>
+
 ## System Requirements
 
 ### Minimum System Requirements
@@ -62,6 +72,8 @@ By completing this lab, the user will:
 | [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Creates, manages, and runs multiple virtual machines. |
 | [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) | ISO file used to install Ubuntu Linux on the VM. |
 
+<br>
+<br>
 
 ## Key Terms
 
@@ -80,6 +92,9 @@ By completing this lab, the user will:
 | SSH | Secure Shell; a network protocol that is used to securely log in to, access, and control remote servers. |
 | Guest Additions | VirtualBox tools that improve screen resizing, clipboard sharing, and mouse integration. |
 | Snapshot | A saved VM state that can be restored later. |
+
+<br>
+<br>
 
 # The Guide
 
@@ -102,8 +117,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)  
 
-
-
+<br>
+<br>
 
 ## Step 2: Download the Ubuntu Linux ISO
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
@@ -117,9 +132,9 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 4. Download the Ubuntu ISO file.
 5. Save the ISO file in an easy-to-find location, like the Downloads folder.
 
-
-
-   
+<br>
+<br>
+  
 ## Step 3: Create a New Virtual Machine
 1. Open Oracle VirtualBox
 2. Click new in the top left corner on VirtualBox (the blue spiked circle).
@@ -139,8 +154,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
 
-
-
+<br>
+<br>
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
 1. Click the Specify virtual hardware section, and it will show more options
@@ -167,8 +182,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
-
-
+<br>
+<br>
 
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
@@ -186,16 +201,18 @@ Right-click this new option and select the settings option from the menu, it sho
 
 [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
 
-
-
+<br>
+<br>
 
 ## Step 6: Start the Virtual Machine
 
-
+<br>
+<br>
 
 ## Step 7: Install Ubuntu
 
-
+<br>
+<br>
 
 ## Step 8: Restart After Installation
 
@@ -203,8 +220,8 @@ Right-click this new option and select the settings option from the menu, it sho
 
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
 
-
-
+<br>
+<br>
 
 ## Step 9: Update Ubuntu
 
@@ -214,8 +231,8 @@ Right-click this new option and select the settings option from the menu, it sho
 
 [Common Error 8: VM Freezes or Becomes Unresponsive](#common-error-8-vm-freezes-or-becomes-unresponsive)   
 
-
-
+<br>
+<br>
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
@@ -223,24 +240,24 @@ Right-click this new option and select the settings option from the menu, it sho
 
 [Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)   
 
-
-
+<br>
+<br>
 
 ## Bonus Steps 2: Enable Shared Clipboard
 [Common Error 11: Shared Clipboard Does Not Work](#common-error-11-shared-clipboard-does-not-work)
 
-
-
+<br>
+<br>
 
 ## Bonus Steps 3: Take a Snapshot
 
-
-
+<br>
+<br>
 
 ## Bonus Steps 4: Verify Basic Linux Functionality
 
-
-
+<br>
+<br>
 
 # Troubleshooting
 ### Common Error 1: VirtualBox Installation Fails
@@ -264,6 +281,9 @@ To resolve this:
 ### Common Error 10: Guest Additions Fail on Install
 ### Common Error 11: Shared Clipboard Does Not Work
 ### Common Error 12: Virtualization is Disabled
+
+<br>
+<br>
 
 # Closing Notes
 
