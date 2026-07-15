@@ -107,7 +107,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
 2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).
 
-**Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. 
+   **Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. 
 
    <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />  
 
