@@ -103,6 +103,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)  
 
 
+
+
 ## Step 2: Download the Ubuntu Linux ISO
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
 2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).
@@ -114,6 +116,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 4. Download the Ubuntu ISO file.
 5. Save the ISO file in an easy-to-find location, like the Downloads folder.
+
+
 
    
 ## Step 3: Create a New Virtual Machine
@@ -134,6 +138,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 
 [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
+
+
 
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
@@ -162,6 +168,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
 
+
+
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
 Right-click this new option and select the settings option from the menu, it should pop up a settings menu.  
@@ -179,13 +187,23 @@ Right-click this new option and select the settings option from the menu, it sho
 [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
 
 
+
+
 ## Step 6: Start the Virtual Machine
+
+
 
 ## Step 7: Install Ubuntu
 
+
+
 ## Step 8: Restart After Installation
 
+
+
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
+
+
 
 
 ## Step 9: Update Ubuntu
@@ -197,6 +215,8 @@ Right-click this new option and select the settings option from the menu, it sho
 [Common Error 8: VM Freezes or Becomes Unresponsive](#common-error-8-vm-freezes-or-becomes-unresponsive)   
 
 
+
+
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
 [Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)   
@@ -204,13 +224,23 @@ Right-click this new option and select the settings option from the menu, it sho
 [Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)   
 
 
+
+
 ## Bonus Steps 2: Enable Shared Clipboard
 [Common Error 11: Shared Clipboard Does Not Work](#common-error-11-shared-clipboard-does-not-work)
 
 
+
+
 ## Bonus Steps 3: Take a Snapshot
 
+
+
+
 ## Bonus Steps 4: Verify Basic Linux Functionality
+
+
+
 
 # Troubleshooting
 ### Common Error 1: VirtualBox Installation Fails
