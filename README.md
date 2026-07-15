@@ -153,6 +153,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 4. Click the Specify virtual hard disk section.
 5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
 6. Click it and put in 30 GB; this should be more than enough for this lab.
+   
    <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" />
  
 7. Review the VM Setting you changed and ensure they are correct.
