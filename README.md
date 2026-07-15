@@ -88,13 +88,14 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
 2. Click and Download the installer for Windows hosts. <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
-2. Run the VirtualBox installer.
-3. Accept the default installation options.
+   
+3. Run the VirtualBox installer.
+4. Accept the default installation options.
 
    **Note:** You may get a few warning messages. This is okay, just click 'yes' for them.
 
    <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" />
-   <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />
+   <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />  
 
 4. If prompted, allow drivers or adapters to install.  
 5. Finish the installation and open VirtualBox.  
@@ -108,7 +109,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 **Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. 
 
-<img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />
+<img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />  
+
 
 3. Download the Ubuntu ISO file.
 4. Save the ISO file in an easy-to-find location, like the Downloads folder.
@@ -118,14 +120,18 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 1. Open Oracle VirtualBox
 2. Click new in the top left corner on VirtualBox (the blue spiked circle).
    <img width="1272" height="932" alt="Screenshot 2026-07-08 070248" src="https://github.com/user-attachments/assets/c2590d75-c749-48ad-b12c-332409c65a0e" />
-3. Type out a name for the specific virtual machine in the VM Name box.
-4. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
+   
+4. Type out a name for the specific virtual machine in the VM Name box.
+5. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
    <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" />
-5. Select the option that says Other... It should open up a file explorer page.
-6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
+   
+7. Select the option that says Other... It should open up a file explorer page.
+8. Navigate to where you downloaded the Ubuntu ISO file and double click it.
    <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" />
-7. Uncheck the box that says Proceed with Unattended Installation.
+   
+10. Uncheck the box that says Proceed with Unattended Installation.
   <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" />
+
 
 [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
 
@@ -140,7 +146,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
    **Note:** There is diminishing returns after 4 cores.
 
-  <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />
+  <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />  
   
 **Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer.
 
@@ -149,8 +155,9 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
 6. Click it and put in 30 GB; this should be more than enough for this lab.
     <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" />
-7. Review the VM Setting you changed and ensure they are correct.
-8. Click the Finish button.
+   
+8. Review the VM Setting you changed and ensure they are correct.
+9. Click the Finish button.
 
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
@@ -158,15 +165,16 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
 Right-click this new option and select the settings option from the menu, it should pop up a settings menu.
-  <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" />
+  <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" />  
   
 3. In the side bar, click the option on the list that says Display.
 4. Set the Video Memory to 128 MB.
    <img width="1027" height="682" alt="image" src="https://github.com/user-attachments/assets/5c129215-4cb6-4bce-9588-fc3b93a05186" />
-5. Click the side bar option that says Network.
-6. Click the 'Attached to' box, and select 'Bridged Adapter.'
-7. Review the settings we changed, and ensure they are correct.
-8. Hit OK.
+   
+6. Click the side bar option that says Network.
+7. Click the 'Attached to' box, and select 'Bridged Adapter.'
+8. Review the settings we changed, and ensure they are correct.
+9. Hit OK.
 
 [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
 
