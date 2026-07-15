@@ -125,12 +125,12 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 5. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
    <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" />
    
-7. Select the option that says Other... It should open up a file explorer page.
+7. Select the option that says Other... It should open up a file explorer page.  
 8. Navigate to where you downloaded the Ubuntu ISO file and double click it.
    <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" />
    
 10. Uncheck the box that says Proceed with Unattended Installation.
-  <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" />
+   <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" />
 
 
 [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
@@ -156,8 +156,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 6. Click it and put in 30 GB; this should be more than enough for this lab.
    <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" />
  
-8. Review the VM Setting you changed and ensure they are correct.
-9. Click the Finish button.
+7. Review the VM Setting you changed and ensure they are correct.
+8. Click the Finish button.
 
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
