@@ -145,7 +145,6 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 3. As for Number of CPUs, put in at least 2 cores. 
 
    **Note:** There is diminishing returns after 4 cores.  
-
    <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />  
   
 **Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer.
@@ -164,7 +163,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
-Right-click this new option and select the settings option from the menu, it should pop up a settings menu.
+Right-click this new option and select the settings option from the menu, it should pop up a settings menu.  
    <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" />  
   
 3. In the side bar, click the option on the list that says Display.
