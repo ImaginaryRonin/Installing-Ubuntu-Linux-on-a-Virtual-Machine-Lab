@@ -334,6 +334,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="969" height="692" alt="image" src="https://github.com/user-attachments/assets/4d815fe6-b60f-4a5b-bc72-b8b795f90dee" />
 2. If prompted to remove the installation medium, press 'Enter.'
   <img width="1566" height="983" alt="Screenshot 2026-07-26 020823" src="https://github.com/user-attachments/assets/17b7a39b-d186-4dc3-9f48-91d2e039bfc4" />
+  
 3. The VM should restart and boot into the installed Ubuntu OS.
 
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
