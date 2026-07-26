@@ -213,7 +213,7 @@ Right-click this new option and select the settings option from the menu, it sho
 4. Once the Ubuntu boot menu appears, select 'Try or install Ubuntu,' and press the 'enter' button on the keyboard.
    <img width="717" height="392" alt="Screenshot 2026-07-08 071347" src="https://github.com/user-attachments/assets/2a4c1c76-c152-4335-8384-31746344e695" />
 
-5. You may get this error message upon selecting the 'Try or install Ubuntu' option. Ignore it.
+5. You may get this error message upon selecting the 'Try or install Ubuntu' option. This warning is usually related to the virtual graphics controller used by VirtualBox. If Ubuntu installation continues loading normally, proceed normally.
    <img width="1051" height="285" alt="Screenshot 2026-07-26 005756" src="https://github.com/user-attachments/assets/84c3d7ed-dafd-4189-9197-1c838dbde1f7" />
 
 
@@ -246,7 +246,7 @@ Right-click this new option and select the settings option from the menu, it sho
 <hr>
 
 ### 4. Connect to the internet
-  - Select 'Use wired connection' (Regardless if you are using wifi or not)
+  - Select 'Use wired connection' (Regardless if you are using Wi-fi or not)
   - Hit 'Next' 
   <img width="975" height="694" alt="image" src="https://github.com/user-attachments/assets/05284df5-1f2f-4f3b-8099-15aef45083a1" />
 <br>
@@ -262,7 +262,7 @@ Right-click this new option and select the settings option from the menu, it sho
 <hr>
 
 ### 6. How would you like to install Ubuntu
-  - Select 'Interactive installation;
+  - Select 'Interactive installation'
   - Hit 'Next'
   <img width="975" height="695" alt="image" src="https://github.com/user-attachments/assets/8c98b5a0-a2fc-4a8a-8564-1c89fe1e2f24" />
 <br>
@@ -278,7 +278,7 @@ Right-click this new option and select the settings option from the menu, it sho
 <hr>
 
 ### 8. Install recommended proprietary software
-  - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats does no harm)
+  - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats is optional for this lab)
   - Hit 'Next'
   <img width="973" height="688" alt="image" src="https://github.com/user-attachments/assets/b6c6a55f-eaeb-4f9b-baa0-be59097eb3ae" />
 <br>
@@ -286,7 +286,7 @@ Right-click this new option and select the settings option from the menu, it sho
 <hr>
 
 ### 9. How do you want to install Ubuntu
-  - Select 'Erase disk and install Ubuntu'
+  - Select 'Erase disk and install Ubuntu' (This only erases the virtual disk assigned to the Ubuntu VM. It does NOT erase the physical Windows 11 host machine.)
   - Hit 'Next'
   <img width="973" height="693" alt="image" src="https://github.com/user-attachments/assets/bab45fb3-a315-4e61-a33d-565847137f20" />
 <br>
