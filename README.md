@@ -227,6 +227,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="973" height="694" alt="image" src="https://github.com/user-attachments/assets/d27a9f06-6620-4a3b-8ce9-43bc0e1afbaa" />
 <br>
 <br>
+<hr>
 
 2. Accessibility in Ubuntu
   - Keep default options or adjust the accessibility settings to whatever is the most comfortable.
@@ -234,6 +235,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="971" height="688" alt="image" src="https://github.com/user-attachments/assets/ccb74d38-3a7b-4d87-8269-a00042e4d533" />
 <br>
 <br>
+<hr>
 
 3. Select your keyboard layout
   - Select the keyboard layout option that matches your keyboard or preferences.
@@ -241,6 +243,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="969" height="689" alt="image" src="https://github.com/user-attachments/assets/ab9a7508-a036-4dd2-a419-a9f2e7414213" />
 <br>
 <br>
+<hr>
 
 4. Connect to the internet
   - Select 'Use wired connection' (Regardless if you are using wifi or not)
@@ -248,6 +251,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="975" height="694" alt="image" src="https://github.com/user-attachments/assets/05284df5-1f2f-4f3b-8099-15aef45083a1" />
 <br>
 <br>
+<hr>
 
 5. What do you want to do with Ubuntu
   - Select 'Install Ubuntu'
@@ -255,6 +259,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="968" height="687" alt="image" src="https://github.com/user-attachments/assets/2576560a-ad43-4713-a8c1-f4720f8f56fb" />
 <br>
 <br>
+<hr>
 
 6. How would you like to install Ubuntu
   - Select 'Interactive installation;
@@ -262,6 +267,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="975" height="695" alt="image" src="https://github.com/user-attachments/assets/8c98b5a0-a2fc-4a8a-8564-1c89fe1e2f24" />
 <br>
 <br>
+<hr>
 
 7. What apps would you like to install to start with
   - For the case of this lab, select 'Default selection' (However, selecting 'Extended selection' works just fine)
@@ -269,6 +275,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="975" height="690" alt="image" src="https://github.com/user-attachments/assets/e1ea2392-10fb-4bc5-abea-ebf573ec5a09" />
 <br>
 <br>
+<hr>
 
 8. Install recommended proprietary software
   - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats does no harm)
@@ -276,6 +283,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="973" height="688" alt="image" src="https://github.com/user-attachments/assets/b6c6a55f-eaeb-4f9b-baa0-be59097eb3ae" />
 <br>
 <br>
+<hr>
 
 9. How do you want to install Ubuntu
   - Select 'Erase disk and install Ubuntu'
@@ -283,6 +291,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="973" height="693" alt="image" src="https://github.com/user-attachments/assets/bab45fb3-a315-4e61-a33d-565847137f20" />
 <br>
 <br>
+<hr>
 
 10. Encryption and file system
   - Select 'No encryption'
@@ -290,6 +299,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="971" height="690" alt="image" src="https://github.com/user-attachments/assets/74e6f09e-2939-426e-b64a-817c9d52da70" />
 <br>
 <br>
+<hr>
 
 11. Create your account
   - Enter your name
@@ -300,6 +310,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="969" height="688" alt="image" src="https://github.com/user-attachments/assets/70c3cf91-cc85-4ac0-bff3-1912268be1d1" />
 <br>
 <br>
+<hr>
 
 12. Select your timezone
   - Select the location of your specific timezone
@@ -307,6 +318,7 @@ Right-click this new option and select the settings option from the menu, it sho
   <img width="976" height="688" alt="image" src="https://github.com/user-attachments/assets/8d92c63b-564c-4f65-b04b-8f0f0003dde9" />
 <br>
 <br>
+<hr>
 
 13. Review your choices
   - Ensure that the following information appears correct
