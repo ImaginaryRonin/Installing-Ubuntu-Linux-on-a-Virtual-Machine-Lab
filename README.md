@@ -330,8 +330,11 @@ Right-click this new option and select the settings option from the menu, it sho
 
 
 ## Step 8: Restart After Installation
-
-
+1. Click 'Restart now'
+  <img width="969" height="692" alt="image" src="https://github.com/user-attachments/assets/4d815fe6-b60f-4a5b-bc72-b8b795f90dee" />
+2. If prompted to remove the installation medium, press 'Enter.'
+  <img width="804" height="415" alt="Screenshot 2026-07-26 020333" src="https://github.com/user-attachments/assets/4cf89aa5-ec4c-44b6-ab54-1821dd29327a" />
+3. The VM should restart and boot into the installed Ubuntu OS.
 
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
 
