@@ -194,7 +194,7 @@ Right-click this new option and select the settings option from the menu, it sho
 4. Set the Video Memory to 128 MB.
    <img width="1027" height="682" alt="image" src="https://github.com/user-attachments/assets/5c129215-4cb6-4bce-9588-fc3b93a05186" />
    
-6. Click the side bar option that says Network.
+6. Click the side bar option that says 'Network'.
 7. Click the 'Attached to' box, and select 'Bridged Adapter.'
 8. Review the settings we changed, and ensure they are correct.
 9. Hit OK.
@@ -205,11 +205,102 @@ Right-click this new option and select the settings option from the menu, it sho
 <br>
 
 ## Step 6: Start the Virtual Machine
+1. Select the Ubuntu VM within VirtualBox.
+2. Click the 'Start' button.
+   <img width="1017" height="593" alt="Screenshot 2026-07-26 004724" src="https://github.com/user-attachments/assets/fc3e04e0-912b-4b5f-800f-c5bb76b3636a" />
+
+3. The VM should boot from the Ubuntu ISO.
+4. Once the Ubuntu boot menu appears, select 'Try or install Ubuntu,' and press the 'enter' button on the keyboard.
+   <img width="717" height="392" alt="Screenshot 2026-07-08 071347" src="https://github.com/user-attachments/assets/2a4c1c76-c152-4335-8384-31746344e695" />
+
+5. You may get this error message upon selecting the 'Try or install Ubuntu' option. Ignore it.
+   <img width="1051" height="285" alt="Screenshot 2026-07-26 005756" src="https://github.com/user-attachments/assets/84c3d7ed-dafd-4189-9197-1c838dbde1f7" />
+
 
 <br>
 <br>
 
 ## Step 7: Install Ubuntu
+1. Choose your language
+  - Select 'English' or whichever language you are most comfortable.
+  - Hit 'Next'
+  <img width="973" height="694" alt="image" src="https://github.com/user-attachments/assets/d27a9f06-6620-4a3b-8ce9-43bc0e1afbaa" />
+
+
+2. Accessibility in Ubuntu
+  - Keep default options or adjust the accessibility settings to whatever is the most comfortable.
+  - Hit 'Next'
+  <img width="971" height="688" alt="image" src="https://github.com/user-attachments/assets/ccb74d38-3a7b-4d87-8269-a00042e4d533" />
+
+
+3. Select your keyboard layout
+  - Select the keyboard layout option that matches your keyboard or preferences.
+  - Hit 'Next'
+  <img width="969" height="689" alt="image" src="https://github.com/user-attachments/assets/ab9a7508-a036-4dd2-a419-a9f2e7414213" />
+
+
+4. Connect to the internet
+  - Select 'Use wired connection' (Regardless if you are using wifi or not)
+  - Hit 'Next' 
+  <img width="975" height="694" alt="image" src="https://github.com/user-attachments/assets/05284df5-1f2f-4f3b-8099-15aef45083a1" />
+
+
+5. What do you want to do with Ubuntu
+  - Select 'Install Ubuntu'
+  - Hit 'Next'
+  <img width="968" height="687" alt="image" src="https://github.com/user-attachments/assets/2576560a-ad43-4713-a8c1-f4720f8f56fb" />
+
+
+6. How would you like to install Ubuntu
+  - Select 'Interactive installation;
+  - Hit 'Next'
+  <img width="975" height="695" alt="image" src="https://github.com/user-attachments/assets/8c98b5a0-a2fc-4a8a-8564-1c89fe1e2f24" />
+
+
+7. What apps would you like to install to start with
+  - For the case of this lab, select 'Default selection' (However, selecting 'Extended selection' works just fine)
+  - Hit 'Next'
+  <img width="975" height="690" alt="image" src="https://github.com/user-attachments/assets/e1ea2392-10fb-4bc5-abea-ebf573ec5a09" />
+
+
+8. Install recommended proprietary software
+  - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats does no harm)
+  - Hit 'Next'
+  <img width="973" height="688" alt="image" src="https://github.com/user-attachments/assets/b6c6a55f-eaeb-4f9b-baa0-be59097eb3ae" />
+
+
+9. How do you want to install Ubuntu
+  - Select 'Erase disk and install Ubuntu'
+  - Hit 'Next'
+  <img width="973" height="693" alt="image" src="https://github.com/user-attachments/assets/bab45fb3-a315-4e61-a33d-565847137f20" />
+
+
+10. Encryption and file system
+  - Select 'No encryption'
+  - Hit 'Next'
+  <img width="971" height="690" alt="image" src="https://github.com/user-attachments/assets/74e6f09e-2939-426e-b64a-817c9d52da70" />
+
+
+11. Create your account
+  - Enter your name
+  - Enter your computer's name
+  - Enter your username
+  - Enter your password
+  - Hit 'Next'
+  <img width="969" height="688" alt="image" src="https://github.com/user-attachments/assets/70c3cf91-cc85-4ac0-bff3-1912268be1d1" />
+
+
+12. Select your timezone
+  - Select the location of your specific timezone
+  - Hit 'Next'
+  <img width="976" height="688" alt="image" src="https://github.com/user-attachments/assets/8d92c63b-564c-4f65-b04b-8f0f0003dde9" />
+
+
+13. Review your choices
+  - Ensure that the following information appears correct
+  - Select the 'Install' button
+  <img width="971" height="691" alt="image" src="https://github.com/user-attachments/assets/d0732da6-7f2c-4b33-909c-8001c9865c01" />
+
 
 <br>
 <br>
