@@ -221,7 +221,7 @@ Right-click this new option and select the settings option from the menu, it sho
 <br>
 
 ## Step 7: Install Ubuntu
-### 1. Choose your language
+#### 1. Choose your language
   - Select 'English' or whichever language you are most comfortable.
   - Hit 'Next'
   <img width="973" height="694" alt="image" src="https://github.com/user-attachments/assets/d27a9f06-6620-4a3b-8ce9-43bc0e1afbaa" />
