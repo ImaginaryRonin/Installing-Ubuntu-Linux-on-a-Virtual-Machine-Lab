@@ -221,7 +221,7 @@ Right-click this new option and select the settings option from the menu, it sho
 <br>
 
 ## Step 7: Install Ubuntu
-#### 1. Choose your language
+### 1. Choose your language
   - Select 'English' or whichever language you are most comfortable.
   - Hit 'Next'
   <img width="973" height="694" alt="image" src="https://github.com/user-attachments/assets/d27a9f06-6620-4a3b-8ce9-43bc0e1afbaa" />
@@ -305,7 +305,7 @@ Right-click this new option and select the settings option from the menu, it sho
   - Enter your name
   - Enter your computer's name
   - Enter your username
-  - Enter your password
+  - Enter your password (IMPORTANT: Remember this)
   - Hit 'Next'
   <img width="969" height="688" alt="image" src="https://github.com/user-attachments/assets/70c3cf91-cc85-4ac0-bff3-1912268be1d1" />
 <br>
@@ -332,10 +332,13 @@ Right-click this new option and select the settings option from the menu, it sho
 ## Step 8: Restart After Installation
 1. Click 'Restart now'
   <img width="969" height="692" alt="image" src="https://github.com/user-attachments/assets/4d815fe6-b60f-4a5b-bc72-b8b795f90dee" />
-2. If prompted to remove the installation medium, press 'Enter.'
+2. You may be prompted to remove the installation medium.
   <img width="1566" height="983" alt="Screenshot 2026-07-26 020823" src="https://github.com/user-attachments/assets/17b7a39b-d186-4dc3-9f48-91d2e039bfc4" />
-  
-3. The VM should restart and boot into the installed Ubuntu OS.
+3. Following this, in the top left corner of the VM window, there should be several options. Click the 'Devices' option. It should give several more options beneath.
+   <img width="692" height="418" alt="Screenshot 2026-07-27 025503" src="https://github.com/user-attachments/assets/52966669-1d3d-404f-8f83-c820dd94de1a" />
+4. Highlight 'Optical Drives' and in the side menu it opens, click 'Remove Disk From Virtual Drive' (This option may be grayed-out and un-selectable. In this case, skip to the next step.)
+   <img width="1148" height="390" alt="image" src="https://github.com/user-attachments/assets/be943c5e-9a7d-4855-ac66-20a85db7a19e" />
+5. Finally, click back into the Ubuntu OS remove installation medium screen, and hit 'Enter'
 
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
 
@@ -343,7 +346,18 @@ Right-click this new option and select the settings option from the menu, it sho
 <br>
 
 ## Step 9: Update Ubuntu
+1. Once you boot back into Ubuntu, open the terminal. (Keyboard Shortcut: Ctrl + Alt + T)
+2. Enter a root shell: <br>
+        Type into the box: 'sudo su -' then hit the Enter key. (You may be prompted to enter your password. Just enter the password you set in step 7.11)
+3. Update the package list: <br>
+        Now, type in 'apt update' and hit the Enter key. This checks Ubuntu's software repositories for available package updates.
 
+4. Upgrade installed packages: <br>
+        Type in 'apt upgrade' and hit the Enter key. This will show you terms and conditions for updating everything. 
+5. Type in 'y' and press the Enter key to accept these conditions.
+   <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" />
+
+   
 [Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)   
 
 [Common Error 7: Ubuntu Has No Internet Connection](#common-error-7-ubuntu-has-no-internet-connection)   
