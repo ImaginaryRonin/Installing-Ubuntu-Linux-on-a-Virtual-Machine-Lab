@@ -195,7 +195,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
-'**Right-click**' this new option and select the '**Settings**' option from the menu, it should pop up a settings menu. <br>
+2. '**Right-click**' this new option and select the '**Settings**' option from the menu, it should pop up a settings menu. <br>
 
    <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" /> <br>
   
@@ -397,13 +397,17 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 ## Step 9: Update Ubuntu
 1. Once you boot back into Ubuntu, open the terminal. (Keyboard Shortcut: Ctrl + Alt + T)
 2. Enter a root shell: <br>
-        Type into the box: 'sudo su -' then hit the Enter key. (You may be prompted to enter your password. Just enter the password you set in step 7.11)
-3. Update the package list: <br>
+   Type into the box the following into the box and hit the '**Enter**' key.
+   ```
+   sudo su -
+   ```
+   You may be prompted to enter your password. Just enter the password you set in step 7.11
+4. Update the package list: <br>
         Now, type in 'apt update' and hit the Enter key. This checks Ubuntu's software repositories for available package updates.
 
-4. Upgrade installed packages: <br>
+5. Upgrade installed packages: <br>
         Type in 'apt upgrade' and hit the Enter key. This will show you terms and conditions for updating everything. 
-5. Type in 'y' and press the Enter key to accept these conditions.
+6. Type in 'y' and press the Enter key to accept these conditions.
    <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" />
 
    
