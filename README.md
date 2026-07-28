@@ -398,10 +398,12 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 1. Once you boot back into Ubuntu, open the terminal. (Keyboard Shortcut: Ctrl + Alt + T)
 2. Enter a root shell: <br>
    Type into the box the following into the box and hit the '**Enter**' key.
+   
    ```
    sudo su -
    ```
-   You may be prompted to enter your password. Just enter the password you set in step 7.11
+
+   **Note:** You may be prompted to enter your password. Just enter the password you set in step 7.11
 4. Update the package list: <br>
         Now, type in 'apt update' and hit the Enter key. This checks Ubuntu's software repositories for available package updates.
 
