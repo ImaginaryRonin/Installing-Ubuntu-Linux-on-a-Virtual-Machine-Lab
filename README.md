@@ -396,20 +396,45 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 ## Step 9: Update Ubuntu
 1. Once you boot back into Ubuntu, open the terminal. (Keyboard Shortcut: Ctrl + Alt + T)
+
 2. Enter a root shell: <br>
-   Type into the box the following into the box and hit the '**Enter**' key.
+   - Type into the box the following into the box and hit the '**Enter**' key.
    
    ```
    sudo su -
    ```
 
-   **Note:** You may be prompted to enter your password. Just enter the password you set in step 7.11
-4. Update the package list: <br>
-        Now, type in 'apt update' and hit the Enter key. This checks Ubuntu's software repositories for available package updates.
+   - This command enters you into a root shell, which gives administrative privileges.
+   - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](11-create-your-account) <br>
+   
+3. Update the package list: <br>
+   - Now, type this into the box and press the '**Enter**' key.
 
-5. Upgrade installed packages: <br>
-        Type in 'apt upgrade' and hit the Enter key. This will show you terms and conditions for updating everything. 
-6. Type in 'y' and press the Enter key to accept these conditions.
+   ```
+   apt update
+   ```
+     
+   - This checks Ubuntu's software repositories for available package updates. <br>
+
+4. Upgrade installed packages: <br>
+   - Type this and press the '**Enter**' key.
+
+   ```
+   apt upgrade
+   ```
+
+   - This will show you terms and conditions for updating everything. <br>
+  
+5. Accept these conditions: <br>
+   - Type this and press the '**Enter**' key.
+
+   ```
+   y
+   ```
+   
+   - This will start the process of updating all the necessary drivers. <br>
+
+
    <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" />
 
    
