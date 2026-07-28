@@ -104,6 +104,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
 2. Click and Download the installer for Windows hosts. <br>
+
    <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" /> <br>
    
 3. Run the VirtualBox installer.
