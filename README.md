@@ -405,7 +405,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```
 
    - This command enters you into a root shell, which gives administrative privileges.
-   - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](11-create-your-account) <br>
+   - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](#11-create-your-account) <br>
    
 3. Update the package list: <br>
    - Now, type this into the box and press the '**Enter**' key.
