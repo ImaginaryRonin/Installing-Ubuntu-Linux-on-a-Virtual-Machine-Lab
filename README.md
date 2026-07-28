@@ -141,17 +141,21 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 ## Step 3: Create a New Virtual Machine
 1. Open Oracle VirtualBox.
 2. Click '**New**' in the top left corner on VirtualBox (the blue spiked circle). <br>
+
    <img width="1272" height="932" alt="Screenshot 2026-07-08 070248" src="https://github.com/user-attachments/assets/c2590d75-c749-48ad-b12c-332409c65a0e" /> <br>
    
 3. Type out a name for the specific virtual machine in the VM Name box.
 4. Click the '**Down Arrow**' to the right of the ISO image box; a dropdown menu should pop up. <br>
+
    <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" /> <br>
    
 5. Select the option that says '**Other**.' It should open up a file explorer page.  
 6. Navigate to where you downloaded the Ubuntu ISO file and '**Double-click**' it. <br>
+
    <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" /> <br>
    
 7. Uncheck the box that says '**Proceed with Unattended Installation**.' <br>
+
    <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" /> <br>
 
 
