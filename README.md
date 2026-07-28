@@ -61,13 +61,13 @@ By completing this lab, the user will:
 | --- | --- |
 | Host Operating System | Windows 11 |
 | CPU | 64-bit dual-core processor |
-| RAM | 8 GB Minimum |
+| RAM | 8 GB minimum |
 | Storage | At least 40 GB of free disk space |
 | Internet Connection | Required |
 
 
 ### Software Requirements
-| Software | Minimum Requirement |
+| Software | Purpose |
 | --- | --- |
 | [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Creates, manages, and runs multiple virtual machines. |
 | [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) | ISO file used to install Ubuntu Linux on the VM. |
@@ -115,8 +115,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" />
    <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" /> <br>
 
-6. If prompted, allow drivers or adapters to install.  
-7. Finish the installation and open VirtualBox.  
+5. If prompted, allow drivers or adapters to install.  
+6. Finish the installation and open VirtualBox.  
 
 [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)  
 
@@ -140,7 +140,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
   
 ## Step 3: Create a New Virtual Machine
 1. Open Oracle VirtualBox.
-2. Click '**New**' in the top left corner on VirtualBox (the blue spiked circle). <br>
+2. Click '**New**' in the top left-corner on VirtualBox. (the blue spiked circle) <br>
 
    <img width="1272" height="932" alt="Screenshot 2026-07-08 070248" src="https://github.com/user-attachments/assets/c2590d75-c749-48ad-b12c-332409c65a0e" /> <br>
    
@@ -149,7 +149,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
    <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" /> <br>
    
-5. Select the option that says '**Other**.' It should open up a file explorer page.  
+5. Select the option that says '**Other**.' This should open File Explorer.  
 6. Navigate to where you downloaded the Ubuntu ISO file and '**Double-click**' it. <br>
 
    <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" /> <br>
@@ -165,7 +165,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 
 ## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)
-1. Click the '**Specify virtual hardware**' section, and it will show more options.
+1. Click the '**Specify virtual hardware**' section to show more options.
 2. For base memory, select at least 2048 MB. <br>
 
    **Note:** There are diminishing returns after 4096 MB.   <br>
@@ -179,13 +179,13 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 **Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer. <br>
 
 
-4. Click the Specify virtual hard disk section.
-5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
+4. Click the '**Specify virtual hard disk**' section.
+5. The box beside the Disk Size slider controls the amount of storage assigned to the VM.
 6. Click it and put in '**30 GB**'; this should be more than enough for this lab. <br>
    
    <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" /> <br>
  
-7. Review the VM Setting you changed and ensure they are correct.
+7. Review the VM Settings you changed and ensure they are correct.
 8. Click the '**Finish**' button.
 
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
@@ -195,7 +195,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
-2. '**Right-click**' this new option and select the '**Settings**' option from the menu, it should pop up a settings menu. <br>
+2. '**Right-click**' this new option and select the '**Settings**' option from the menu. <br>
 
    <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" /> <br>
   
@@ -206,7 +206,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    
 5. Click the sidebar option that says '**Network**'.
 6. Click the '**Attached to**' box, and select '**Bridged Adapter**.'
-7. Review the settings we changed, and ensure they are correct.
+7. Review the settings we changed and ensure they are correct.
 8. Click '**OK**.'
 
 [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
@@ -225,7 +225,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
    <img width="717" height="392" alt="Screenshot 2026-07-08 071347" src="https://github.com/user-attachments/assets/2a4c1c76-c152-4335-8384-31746344e695" /> <br>
 
-5. You may get this error message upon selecting the '**Try or install Ubuntu**' option. If Ubuntu installer continues loading normally, proceed with the installation. <br>
+5. You may get this error message upon selecting the '**Try or install Ubuntu**' option. If the Ubuntu installer continues loading normally, proceed with the installation. <br>
 
    **Note:** This warning is usually related to the virtual graphics controller used by VirtualBox. <br>
  
@@ -266,8 +266,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-#### 4. Connect to the internet
-  - Select '**Use wired connection**.' (Regardless if you are using Wi-Fi or not)
+#### 4. Connect to the Internet
+  - Select '**Use wired connection**.' (Regardless of whether or not you are using Wi-Fi on the host machine.)
   - Click '**Next**.' <br>
 
   <img width="975" height="694" alt="image" src="https://github.com/user-attachments/assets/05284df5-1f2f-4f3b-8099-15aef45083a1" /> <br>
@@ -297,7 +297,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <hr>
 
 #### 7. What apps would you like to install to start with
-  - For the case of this lab, select '**Default selection**.' (However, selecting 'Extended selection' works just fine)
+  - For this lab, select '**Default selection**.' (However, selecting 'Extended selection' works just fine.)
   - Click '**Next**.' <br>
 
   <img width="975" height="690" alt="image" src="https://github.com/user-attachments/assets/e1ea2392-10fb-4bc5-abea-ebf573ec5a09" /> <br>
@@ -307,8 +307,9 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <hr>
 
 #### 8. Install recommended proprietary software
-  - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats is optional for this lab)
+  - For this lab, leave everything default.
   - Click '**Next**.' <br>
+  **Note:** Installing the third-party software and additional media formats is optional for this lab. <br>
 
   <img width="973" height="688" alt="image" src="https://github.com/user-attachments/assets/b6c6a55f-eaeb-4f9b-baa0-be59097eb3ae" /> <br>
   
@@ -317,8 +318,9 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <hr>
 
 #### 9. How do you want to install Ubuntu
-  - Select '**Erase disk and install Ubuntu**.' (This only erases the virtual disk assigned to the Ubuntu VM. It does NOT erase the physical Windows 11 host machine.)
+  - Select '**Erase disk and install Ubuntu**.'
   - Click '**Next**.' <br>
+  **Note:** This only erases the virtual disk assigned to the Ubuntu VM. It does NOT erase the physical Windows 11 host machine. <br>
 
   <img width="973" height="693" alt="image" src="https://github.com/user-attachments/assets/bab45fb3-a315-4e61-a33d-565847137f20" /> <br>
 
@@ -327,7 +329,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <hr>
 
 #### 10. Encryption and file system
-  - Select '**No encryption**.' (Although encryption is incredibly important, for the purposes of this lab select '**No encryption**')
+  - Select '**No encryption**.' (Although encryption is important, this lab uses no encryption to keep the setup simple.)
   - Click '**Next**.' <br>
 
   <img width="971" height="690" alt="image" src="https://github.com/user-attachments/assets/74e6f09e-2939-426e-b64a-817c9d52da70" /> <br>
@@ -350,7 +352,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <hr>
 
 #### 12. Select your timezone
-  - Select the location of your specific timezone
+  - Select the location of your specific timezone.
   - Click '**Next**.' <br>
 
   <img width="976" height="688" alt="image" src="https://github.com/user-attachments/assets/8d92c63b-564c-4f65-b04b-8f0f0003dde9" /> <br>
@@ -360,8 +362,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <hr>
 
 #### 13. Review your choices
-  - Ensure that the following information appears correct
-  - Select the '**Install**' button <br>
+  - Ensure that the following information appears correct.
+  - Select the '**Install**' button. <br>
 
   <img width="971" height="691" alt="image" src="https://github.com/user-attachments/assets/d0732da6-7f2c-4b33-909c-8001c9865c01" /> <br>
 
@@ -378,16 +380,16 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
   <img width="1566" height="983" alt="Screenshot 2026-07-26 020823" src="https://github.com/user-attachments/assets/17b7a39b-d186-4dc3-9f48-91d2e039bfc4" /> <br>
 
-3. Following this, in the top left corner of the VM window, there should be several options. Click the '**Devices**' option. It should give several more options beneath. <br>
+3. In the top left corner of the VM window, click the '**Devices**' option. It should give several more options beneath. <br>
 
    <img width="692" height="418" alt="Screenshot 2026-07-27 025503" src="https://github.com/user-attachments/assets/52966669-1d3d-404f-8f83-c820dd94de1a" /> <br>
 
-4. Hover the mouse cursor over '**Optical Drives**.' and it will open a side menu.
-5. Click '**Remove Disk From Virtual Drive**.' (This option may be grayed-out and un-selectable. In this case, skip to step 8.6.) <br>
+4. Hover the mouse cursor over '**Optical Drives**.' and to open the side menu.
+5. Click '**Remove Disk From Virtual Drive**.' (If this option is grayed out or unavailable, skip to step 8.6.) <br>
 
    <img width="1148" height="390" alt="image" src="https://github.com/user-attachments/assets/be943c5e-9a7d-4855-ac66-20a85db7a19e" /> <br>
 
-6. Finally, click back into the Ubuntu OS remove installation medium screen, and hit 'Enter'
+6. Finally, click back into the Ubuntu OS remove installation medium screen and hit '**Enter**.'
 
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
 
@@ -404,11 +406,11 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    sudo su -
    ```
 
-   - This command enters you into a root shell, which gives administrative privileges.
+   - This command enters you into a root shell, which allows administrative commands to be run without typing '**sudo**' before each command.
    - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](#11-create-your-account) <br>
    
 3. Update the package list: <br>
-   - Now, type this into the box and press the '**Enter**' key.
+   - Type the following command and press the '**Enter**' key.
 
    ```
    apt update
@@ -423,17 +425,22 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    apt upgrade
    ```
 
-   - This will show you terms and conditions for updating everything. <br>
+   - This shows the available package upgrades and asks for confirmation before continuing. <br>
   
-5. Accept these conditions: <br>
+5. Confirm the upgrade: <br>
    - Type this and press the '**Enter**' key.
 
    ```
    y
    ```
    
-   - This will start the process of updating all the necessary drivers. <br>
+   - This starts the package upgrade process. <br>
 
+6. Exit the root shell:
+   ```
+   exit
+   ```
+   <br>
 
    <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" /> <br>
 
