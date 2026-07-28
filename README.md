@@ -408,44 +408,53 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```bash
    sudo su -
    ```
-
+   
+   <br>
+   
    - This command enters a root shell, which allows administrative commands to be run without typing '**sudo**' before each command.
    - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](#11-create-your-account) <br>
    
 3. Update the package list: <br>
-   - Type the following command and press the '**Enter**' key.
+   - Type the following command and press the '**Enter**' key. <br>
 
    ```bash
    apt update
    ```
-     
+   
+   <br> 
+   
    - This checks Ubuntu's software repositories for available package updates. <br>
 
 4. Upgrade installed packages: <br>
-   - Type the following command and press the '**Enter**' key.
+   - Type the following command and press the '**Enter**' key. <br>
 
    ```bash
    apt upgrade
    ```
-
+   
+   <br>
+   
    - This shows the available package upgrades and asks for confirmation before continuing. <br>
   
 5. Confirm the upgrade: <br>
-   - Type this and press the '**Enter**' key.
+   - Type this and press the '**Enter**' key. <br>
 
    ```text
    y
    ```
    
+   <br>
+   
    - This starts the package upgrade process. <br>
 
    <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" /> <br>
 
-6. Exit the root shell:
+6. Exit the root shell: <br>
  
    ```bash
    exit
    ```
+   
    <br>
    
 [Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)   
