@@ -446,6 +446,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```bash
    exit
    ```
+   
+<br>
 
    
 [Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)   
