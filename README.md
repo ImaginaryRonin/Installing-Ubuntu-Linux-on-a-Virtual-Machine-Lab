@@ -361,7 +361,8 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 #### 13. Review your choices
   - Ensure that the following information appears correct
-  - Select the '**Install**' button
+  - Select the '**Install**' button <br>
+
   <img width="971" height="691" alt="image" src="https://github.com/user-attachments/assets/d0732da6-7f2c-4b33-909c-8001c9865c01" /> <br>
 
 <br>
@@ -369,15 +370,24 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 
 ## Step 8: Restart After Installation
-1. Click 'Restart now'
-  <img width="969" height="692" alt="image" src="https://github.com/user-attachments/assets/4d815fe6-b60f-4a5b-bc72-b8b795f90dee" />
-2. You may be prompted to remove the installation medium.
-  <img width="1566" height="983" alt="Screenshot 2026-07-26 020823" src="https://github.com/user-attachments/assets/17b7a39b-d186-4dc3-9f48-91d2e039bfc4" />
-3. Following this, in the top left corner of the VM window, there should be several options. Click the 'Devices' option. It should give several more options beneath.
-   <img width="692" height="418" alt="Screenshot 2026-07-27 025503" src="https://github.com/user-attachments/assets/52966669-1d3d-404f-8f83-c820dd94de1a" />
-4. Highlight 'Optical Drives' and in the side menu it opens, click 'Remove Disk From Virtual Drive' (This option may be grayed-out and un-selectable. In this case, skip to the next step.)
-   <img width="1148" height="390" alt="image" src="https://github.com/user-attachments/assets/be943c5e-9a7d-4855-ac66-20a85db7a19e" />
-5. Finally, click back into the Ubuntu OS remove installation medium screen, and hit 'Enter'
+1. Click '**Restart now**.' <br>
+
+  <img width="969" height="692" alt="image" src="https://github.com/user-attachments/assets/4d815fe6-b60f-4a5b-bc72-b8b795f90dee" /> <br>
+
+2. You may be prompted to remove the installation medium. <br>
+
+  <img width="1566" height="983" alt="Screenshot 2026-07-26 020823" src="https://github.com/user-attachments/assets/17b7a39b-d186-4dc3-9f48-91d2e039bfc4" /> <br>
+
+3. Following this, in the top left corner of the VM window, there should be several options. Click the '**Devices**' option. It should give several more options beneath. <br>
+
+   <img width="692" height="418" alt="Screenshot 2026-07-27 025503" src="https://github.com/user-attachments/assets/52966669-1d3d-404f-8f83-c820dd94de1a" /> <br>
+
+4. Hover the mouse cursor over '**Optical Drives**.' and it will open a side menu.
+5. Click '**Remove Disk From Virtual Drive**.' (This option may be grayed-out and un-selectable. In this case, skip to step 8.6.) <br>
+
+   <img width="1148" height="390" alt="image" src="https://github.com/user-attachments/assets/be943c5e-9a7d-4855-ac66-20a85db7a19e" /> <br>
+
+6. Finally, click back into the Ubuntu OS remove installation medium screen, and hit 'Enter'
 
 [Common Error 5: VM Boots Back Into the Installer](#common-error-5-vm-boots-back-into-the-installer)
 
