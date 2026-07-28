@@ -201,6 +201,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
   
 3. In the sidebar, click the option on the list that says '**Display**.'
 4. Set the '**Video Memory**' to '**128 MB**.' <br>
+
    <img width="1027" height="682" alt="image" src="https://github.com/user-attachments/assets/5c129215-4cb6-4bce-9588-fc3b93a05186" /> <br>
    
 5. Click the sidebar option that says '**Network**'.
@@ -235,7 +236,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 
 ## Step 7: Install Ubuntu
-### 1. Choose your language
+#### 1. Choose your language
   - Select '**English**' or whichever language you are most comfortable.
   - Click '**Next**.' <br>
 
@@ -245,7 +246,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 2. Accessibility in Ubuntu
+#### 2. Accessibility in Ubuntu
   - Keep default options or adjust the accessibility settings to whatever is the most comfortable.
   - Click '**Next**.' <br>
 
@@ -255,7 +256,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 3. Select your keyboard layout
+#### 3. Select your keyboard layout
   - Select the keyboard layout option that matches your keyboard or preferences.
   - Click '**Next**.' <br>
 
@@ -265,7 +266,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 4. Connect to the internet
+#### 4. Connect to the internet
   - Select '**Use wired connection**.' (Regardless if you are using Wi-Fi or not)
   - Click '**Next**.' <br>
 
@@ -275,7 +276,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 5. What do you want to do with Ubuntu
+#### 5. What do you want to do with Ubuntu
   - Select '**Install Ubuntu**.'
   - Click '**Next**.' <br>
 
@@ -285,7 +286,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 6. How would you like to install Ubuntu
+#### 6. How would you like to install Ubuntu
   - Select '**Interactive installation**.'
   - Click '**Next**.' <br>
 
@@ -295,7 +296,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 7. What apps would you like to install to start with
+#### 7. What apps would you like to install to start with
   - For the case of this lab, select '**Default selection**.' (However, selecting 'Extended selection' works just fine)
   - Click '**Next**.' <br>
 
@@ -305,7 +306,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 8. Install recommended proprietary software
+#### 8. Install recommended proprietary software
   - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats is optional for this lab)
   - Click '**Next**.' <br>
 
@@ -315,7 +316,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 9. How do you want to install Ubuntu
+#### 9. How do you want to install Ubuntu
   - Select '**Erase disk and install Ubuntu**.' (This only erases the virtual disk assigned to the Ubuntu VM. It does NOT erase the physical Windows 11 host machine.)
   - Click '**Next**.' <br>
 
@@ -325,7 +326,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 10. Encryption and file system
+#### 10. Encryption and file system
   - Select '**No encryption**.' (Although encryption is incredibly important, for the purposes of this lab select '**No encryption**')
   - Click '**Next**.' <br>
 
@@ -335,7 +336,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 11. Create your account
+#### 11. Create your account
   - Enter your name.
   - Enter your computer's name.
   - Enter your username.
@@ -348,7 +349,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 12. Select your timezone
+#### 12. Select your timezone
   - Select the location of your specific timezone
   - Click '**Next**.' <br>
 
@@ -358,7 +359,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <hr>
 
-### 13. Review your choices
+#### 13. Review your choices
   - Ensure that the following information appears correct
   - Select the '**Install**' button
   <img width="971" height="691" alt="image" src="https://github.com/user-attachments/assets/d0732da6-7f2c-4b33-909c-8001c9865c01" /> <br>
