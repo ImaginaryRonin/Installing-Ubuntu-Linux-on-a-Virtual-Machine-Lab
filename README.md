@@ -408,9 +408,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```bash
    sudo su -
    ```
-   
-   <br>
-   
+
    - This command enters a root shell, which allows administrative commands to be run without typing '**sudo**' before each command.
    - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](#11-create-your-account) <br>
    
@@ -420,9 +418,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```bash
    apt update
    ```
-   
-   <br> 
-   
+
    - This checks Ubuntu's software repositories for available package updates. <br>
 
 4. Upgrade installed packages: <br>
@@ -431,9 +427,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```bash
    apt upgrade
    ```
-   
-   <br>
-   
+
    - This shows the available package upgrades and asks for confirmation before continuing. <br>
   
 5. Confirm the upgrade: <br>
@@ -442,8 +436,6 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```text
    y
    ```
-   
-   <br>
    
    - This starts the package upgrade process. <br>
 
@@ -454,8 +446,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```bash
    exit
    ```
-   
-   <br>
+
    
 [Common Error 6: Password Does Not Appear When Typing](#common-error-6-password-does-not-appear-when-typing)   
 
