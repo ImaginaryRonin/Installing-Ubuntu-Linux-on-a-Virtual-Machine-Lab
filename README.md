@@ -410,7 +410,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```
 
    - This command enters a root shell, which allows administrative commands to be run without typing '**sudo**' before each command.
-   - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](#11-create-your-account) <br>
+   - **Note:** You may be prompted to enter your password. Just enter the password you set in [step 7.11.](#11-create-your-account) <br> <br>
    
 3. Update the package list: <br>
    - Type the following command and press the '**Enter**' key. <br>
@@ -419,7 +419,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    apt update
    ```
 
-   - This checks Ubuntu's software repositories for available package updates. <br>
+   - This checks Ubuntu's software repositories for available package updates. <br> <br>
 
 4. Upgrade installed packages: <br>
    - Type the following command and press the '**Enter**' key. <br>
@@ -428,7 +428,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    apt upgrade
    ```
 
-   - This shows the available package upgrades and asks for confirmation before continuing. <br>
+   - This shows the available package upgrades and asks for confirmation before continuing. <br> <br>
   
 5. Confirm the upgrade: <br>
    - Type this and press the '**Enter**' key. <br>
@@ -439,7 +439,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    
    - This starts the package upgrade process. <br>
 
-   <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" /> <br>
+   <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" /> <br> <br>
 
 6. Exit the root shell: <br>
  
