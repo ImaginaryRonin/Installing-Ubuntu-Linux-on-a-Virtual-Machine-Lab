@@ -86,7 +86,8 @@ By completing this lab, the user will:
 | Guest Machine | The software-defined computer ran by a host machine through a hypervisor.  |
 | Hypervisor | Software that allows users to create, manage, and run virtual machines. In the case of this lab, it is VirtualBox. |
 | Virtual Disk | The simulated storage device used by the VM. |
-| NAT | Network Address Translation; a mode that allows multiple devices in a private local network to share a single IP address. |
+| NAT | Network Address Translation; a network mode that allows multiple devices in a private local network to share a single IP address. |
+| Bridged Adapter | A VirtualBox network mode that allows the VM to appear as its own device on the local network. |
 | IP Address | A network address used to identify a device. |
 | Gateway | The network device (typically a router) that sends traffic outside the local network. |
 | SSH | Secure Shell; a network protocol that is used to securely log in to, access, and control remote servers. |
@@ -102,18 +103,19 @@ By completing this lab, the user will:
 VirtualBox is the hypervisor or virtual machine manager used in this lab. It allows a host machine to create and run a separate VM (Ubuntu Linux in this case).
 
 1. Go to the official [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) download page. 
-2. Click and Download the installer for Windows hosts. <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" />
+2. Click and Download the installer for Windows hosts. <br>
+   <img width="1080" height="700" alt="Screenshot 2026-07-08 035227" src="https://github.com/user-attachments/assets/870e343d-3c29-4511-8a7c-30bb8935f3d1" /> <br>
    
 3. Run the VirtualBox installer.
-4. Accept the default installation options.
+4. Accept the default installation options. <br>
 
-   **Note:** You may get a few warning messages. This is okay, just click 'yes' for them.
-
+   **Note:** VirtualBox may display warning messages about drivers, network adapters, or optional dependencies. This is okay. For this lab, just continue through the prompts unless the installation fails. <br>
+   
    <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/ca15b717-da1c-4fa5-82f7-5f39640fb638" />
-   <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" />  
+   <img width="400" height="325" alt="image" src="https://github.com/user-attachments/assets/bd049457-c1e3-4094-b928-8b157d802e21" /> <br>
 
-4. If prompted, allow drivers or adapters to install.  
-5. Finish the installation and open VirtualBox.  
+6. If prompted, allow drivers or adapters to install.  
+7. Finish the installation and open VirtualBox.  
 
 [Common Error 1: VirtualBox Installation Fails](#common-error-1-virtualbox-installation-fails)  
 
@@ -122,34 +124,34 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 ## Step 2: Download the Ubuntu Linux ISO
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
-2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option).
+2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option). <br>
 
-   **Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time. 
+   **Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time.  <br>
 
-   <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" />  
+   <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" /> <br>
 
 
-4. Download the Ubuntu ISO file.
-5. Save the ISO file in an easy-to-find location, like the Downloads folder.
+3. Download the Ubuntu ISO file.
+4. Save the ISO file in an easy-to-find location, like the Downloads folder.
 
 <br>
 <br>
   
 ## Step 3: Create a New Virtual Machine
-1. Open Oracle VirtualBox
-2. Click new in the top left corner on VirtualBox (the blue spiked circle).
-   <img width="1272" height="932" alt="Screenshot 2026-07-08 070248" src="https://github.com/user-attachments/assets/c2590d75-c749-48ad-b12c-332409c65a0e" />
+1. Open Oracle VirtualBox.
+2. Click '**New**' in the top left corner on VirtualBox (the blue spiked circle). <br>
+   <img width="1272" height="932" alt="Screenshot 2026-07-08 070248" src="https://github.com/user-attachments/assets/c2590d75-c749-48ad-b12c-332409c65a0e" /> <br>
    
 3. Type out a name for the specific virtual machine in the VM Name box.
-4. Click the down arrow to the right of the ISO image box; a dropdown menu should pop up.
-   <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" />
+4. Click the '**Down Arrow**' to the right of the ISO image box; a dropdown menu should pop up. <br>
+   <img width="987" height="232" alt="Screenshot 2026-07-08 071003" src="https://github.com/user-attachments/assets/6f7f976e-2a03-48aa-88e2-b0fc580decf7" /> <br>
    
-5. Select the option that says Other... It should open up a file explorer page.  
-6. Navigate to where you downloaded the Ubuntu ISO file and double click it.
-   <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" />
+5. Select the option that says '**Other**.' It should open up a file explorer page.  
+6. Navigate to where you downloaded the Ubuntu ISO file and '**Double-click**' it. <br>
+   <img width="1105" height="252" alt="Screenshot 2026-07-08 070700" src="https://github.com/user-attachments/assets/4fa34443-4b81-4805-b61d-454a8e6cc64d" /> <br>
    
-7. Uncheck the box that says Proceed with Unattended Installation.
-   <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" />
+7. Uncheck the box that says '**Proceed with Unattended Installation**.' <br>
+   <img width="992" height="695" alt="Screenshot 2026-07-08 071155" src="https://github.com/user-attachments/assets/831abc3e-c098-416c-96ba-38c021c36f42" /> <br>
 
 
 [Common Error 2: Ubuntu 64-bit Option Is Missing or Greyed Out](#common-error-2-ubuntu-64-bit-option-is-missing-or-greyed-out)  
@@ -157,28 +159,29 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 <br>
 <br>
 
-## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, AND Virtual Storage)
-1. Click the Specify virtual hardware section, and it will show more options
-2. For base memory, select at least 2048 MB.
+## Step 4: Configure VM Settings (Allocating VM CPU Processors, RAM, and Virtual Storage)
+1. Click the '**Specify virtual hardware**' section, and it will show more options.
+2. For base memory, select at least 2048 MB. <br>
 
-   **Note:** There is diminishing returns after 4096 MB.  
+   **Note:** There are diminishing returns after 4096 MB.   <br>
 
-3. As for Number of CPUs, put in at least 2 cores. 
+3. As for Number of CPUs, put in at least 2 cores.  <br>
 
-   **Note:** There is diminishing returns after 4 cores.  
-   <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />  
+   **Note:** There are diminishing returns after 4 cores.   <br>
+
+   <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />   <br>
   
-**Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer.
+**Note:** DO NOT select any amount of memory or CPU cores that are over the red section, these are overkill and may stress your computer. <br>
 
 
 4. Click the Specify virtual hard disk section.
 5. There is a box beside the Disk Size slider, this tells you the amount of storage the VM will utilize.
-6. Click it and put in 30 GB; this should be more than enough for this lab.
+6. Click it and put in '**30 GB**'; this should be more than enough for this lab. <br>
    
-   <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" />
+   <img width="1036" height="698" alt="image" src="https://github.com/user-attachments/assets/f00c5d0d-6dbb-4ee6-abff-fbd049b33b94" /> <br>
  
 7. Review the VM Setting you changed and ensure they are correct.
-8. Click the Finish button.
+8. Click the '**Finish**' button.
 
 [Common Error 3: VM Runs Very Slowly](#common-error-3-vm-runs-very-slowly)  
 
@@ -187,17 +190,18 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 ## Step 5: Modify Advanced VM Settings
 1. There should be a new icon in the main menu of VirtualBox named whatever you named your Ubuntu VM earlier.  
-Right-click this new option and select the settings option from the menu, it should pop up a settings menu.  
-   <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" />  
+'**Right-click**' this new option and select the '**Settings**' option from the menu, it should pop up a settings menu. <br>
+
+   <img width="656" height="620" alt="Screenshot 2026-07-14 174440" src="https://github.com/user-attachments/assets/60ab29c7-1176-4e3c-ae9b-e195139aadd8" /> <br>
   
-3. In the side bar, click the option on the list that says Display.
-4. Set the Video Memory to 128 MB.
-   <img width="1027" height="682" alt="image" src="https://github.com/user-attachments/assets/5c129215-4cb6-4bce-9588-fc3b93a05186" />
+3. In the sidebar, click the option on the list that says '**Display**.'
+4. Set the '**Video Memory**' to '**128 MB**.' <br>
+   <img width="1027" height="682" alt="image" src="https://github.com/user-attachments/assets/5c129215-4cb6-4bce-9588-fc3b93a05186" /> <br>
    
-6. Click the side bar option that says 'Network'.
-7. Click the 'Attached to' box, and select 'Bridged Adapter.'
-8. Review the settings we changed, and ensure they are correct.
-9. Hit OK.
+5. Click the sidebar option that says '**Network**'.
+6. Click the '**Attached to**' box, and select '**Bridged Adapter**.'
+7. Review the settings we changed, and ensure they are correct.
+8. Click '**OK**.'
 
 [Common Error 4: VM Does Not Boot From ISO](#common-error-4-vm-does-not-boot-from-iso)  
 
@@ -206,15 +210,20 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Step 6: Start the Virtual Machine
 1. Select the Ubuntu VM within VirtualBox.
-2. Click the 'Start' button.
-   <img width="1017" height="593" alt="Screenshot 2026-07-26 004724" src="https://github.com/user-attachments/assets/fc3e04e0-912b-4b5f-800f-c5bb76b3636a" />
+2. Click the '**Start**' button. <br>
+
+   <img width="1017" height="593" alt="Screenshot 2026-07-26 004724" src="https://github.com/user-attachments/assets/fc3e04e0-912b-4b5f-800f-c5bb76b3636a" /> <br>
 
 3. The VM should boot from the Ubuntu ISO.
-4. Once the Ubuntu boot menu appears, select 'Try or install Ubuntu,' and press the 'enter' button on the keyboard.
-   <img width="717" height="392" alt="Screenshot 2026-07-08 071347" src="https://github.com/user-attachments/assets/2a4c1c76-c152-4335-8384-31746344e695" />
+4. Once the Ubuntu boot menu appears, select '**Try or install Ubuntu**,' and press the '**Enter**' button on the keyboard. <br>
 
-5. You may get this error message upon selecting the 'Try or install Ubuntu' option. This warning is usually related to the virtual graphics controller used by VirtualBox. If Ubuntu installation continues loading normally, proceed normally.
-   <img width="1051" height="285" alt="Screenshot 2026-07-26 005756" src="https://github.com/user-attachments/assets/84c3d7ed-dafd-4189-9197-1c838dbde1f7" />
+   <img width="717" height="392" alt="Screenshot 2026-07-08 071347" src="https://github.com/user-attachments/assets/2a4c1c76-c152-4335-8384-31746344e695" /> <br>
+
+5. You may get this error message upon selecting the '**Try or install Ubuntu**' option. If Ubuntu installer continues loading normally, proceed with the installation. <br>
+
+   **Note:** This warning is usually related to the virtual graphics controller used by VirtualBox. <br>
+ 
+   <img width="1051" height="285" alt="Screenshot 2026-07-26 005756" src="https://github.com/user-attachments/assets/84c3d7ed-dafd-4189-9197-1c838dbde1f7" /> <br>
 
 
 <br>
@@ -222,108 +231,132 @@ Right-click this new option and select the settings option from the menu, it sho
 
 ## Step 7: Install Ubuntu
 ### 1. Choose your language
-  - Select 'English' or whichever language you are most comfortable.
-  - Hit 'Next'
-  <img width="973" height="694" alt="image" src="https://github.com/user-attachments/assets/d27a9f06-6620-4a3b-8ce9-43bc0e1afbaa" />
+  - Select '**English**' or whichever language you are most comfortable.
+  - Click '**Next**.' <br>
+
+  <img width="973" height="694" alt="image" src="https://github.com/user-attachments/assets/d27a9f06-6620-4a3b-8ce9-43bc0e1afbaa" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 2. Accessibility in Ubuntu
   - Keep default options or adjust the accessibility settings to whatever is the most comfortable.
-  - Hit 'Next'
-  <img width="971" height="688" alt="image" src="https://github.com/user-attachments/assets/ccb74d38-3a7b-4d87-8269-a00042e4d533" />
+  - Click '**Next**.' <br>
+
+  <img width="971" height="688" alt="image" src="https://github.com/user-attachments/assets/ccb74d38-3a7b-4d87-8269-a00042e4d533" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 3. Select your keyboard layout
   - Select the keyboard layout option that matches your keyboard or preferences.
-  - Hit 'Next'
-  <img width="969" height="689" alt="image" src="https://github.com/user-attachments/assets/ab9a7508-a036-4dd2-a419-a9f2e7414213" />
+  - Click '**Next**.' <br>
+
+  <img width="969" height="689" alt="image" src="https://github.com/user-attachments/assets/ab9a7508-a036-4dd2-a419-a9f2e7414213" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 4. Connect to the internet
-  - Select 'Use wired connection' (Regardless if you are using Wi-fi or not)
-  - Hit 'Next' 
-  <img width="975" height="694" alt="image" src="https://github.com/user-attachments/assets/05284df5-1f2f-4f3b-8099-15aef45083a1" />
+  - Select '**Use wired connection**.' (Regardless if you are using Wi-Fi or not)
+  - Click '**Next**.' <br>
+
+  <img width="975" height="694" alt="image" src="https://github.com/user-attachments/assets/05284df5-1f2f-4f3b-8099-15aef45083a1" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 5. What do you want to do with Ubuntu
-  - Select 'Install Ubuntu'
-  - Hit 'Next'
-  <img width="968" height="687" alt="image" src="https://github.com/user-attachments/assets/2576560a-ad43-4713-a8c1-f4720f8f56fb" />
+  - Select '**Install Ubuntu**.'
+  - Click '**Next**.' <br>
+
+  <img width="968" height="687" alt="image" src="https://github.com/user-attachments/assets/2576560a-ad43-4713-a8c1-f4720f8f56fb" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 6. How would you like to install Ubuntu
-  - Select 'Interactive installation'
-  - Hit 'Next'
-  <img width="975" height="695" alt="image" src="https://github.com/user-attachments/assets/8c98b5a0-a2fc-4a8a-8564-1c89fe1e2f24" />
+  - Select '**Interactive installation**.'
+  - Click '**Next**.' <br>
+
+  <img width="975" height="695" alt="image" src="https://github.com/user-attachments/assets/8c98b5a0-a2fc-4a8a-8564-1c89fe1e2f24" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 7. What apps would you like to install to start with
-  - For the case of this lab, select 'Default selection' (However, selecting 'Extended selection' works just fine)
-  - Hit 'Next'
-  <img width="975" height="690" alt="image" src="https://github.com/user-attachments/assets/e1ea2392-10fb-4bc5-abea-ebf573ec5a09" />
+  - For the case of this lab, select '**Default selection**.' (However, selecting 'Extended selection' works just fine)
+  - Click '**Next**.' <br>
+
+  <img width="975" height="690" alt="image" src="https://github.com/user-attachments/assets/e1ea2392-10fb-4bc5-abea-ebf573ec5a09" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 8. Install recommended proprietary software
   - For the case of this lab, leave everything default (However, installing the third-party software and additional media formats is optional for this lab)
-  - Hit 'Next'
-  <img width="973" height="688" alt="image" src="https://github.com/user-attachments/assets/b6c6a55f-eaeb-4f9b-baa0-be59097eb3ae" />
+  - Click '**Next**.' <br>
+
+  <img width="973" height="688" alt="image" src="https://github.com/user-attachments/assets/b6c6a55f-eaeb-4f9b-baa0-be59097eb3ae" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 9. How do you want to install Ubuntu
-  - Select 'Erase disk and install Ubuntu' (This only erases the virtual disk assigned to the Ubuntu VM. It does NOT erase the physical Windows 11 host machine.)
-  - Hit 'Next'
-  <img width="973" height="693" alt="image" src="https://github.com/user-attachments/assets/bab45fb3-a315-4e61-a33d-565847137f20" />
+  - Select '**Erase disk and install Ubuntu**.' (This only erases the virtual disk assigned to the Ubuntu VM. It does NOT erase the physical Windows 11 host machine.)
+  - Click '**Next**.' <br>
+
+  <img width="973" height="693" alt="image" src="https://github.com/user-attachments/assets/bab45fb3-a315-4e61-a33d-565847137f20" /> <br>
+
 <br>
 <br>
 <hr>
 
 ### 10. Encryption and file system
-  - Select 'No encryption'
-  - Hit 'Next'
-  <img width="971" height="690" alt="image" src="https://github.com/user-attachments/assets/74e6f09e-2939-426e-b64a-817c9d52da70" />
+  - Select '**No encryption**.' (Although encryption is incredibly important, for the purposes of this lab select '**No encryption**')
+  - Click '**Next**.' <br>
+
+  <img width="971" height="690" alt="image" src="https://github.com/user-attachments/assets/74e6f09e-2939-426e-b64a-817c9d52da70" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 11. Create your account
-  - Enter your name
-  - Enter your computer's name
-  - Enter your username
-  - Enter your password (IMPORTANT: Remember this)
-  - Hit 'Next'
-  <img width="969" height="688" alt="image" src="https://github.com/user-attachments/assets/70c3cf91-cc85-4ac0-bff3-1912268be1d1" />
+  - Enter your name.
+  - Enter your computer's name.
+  - Enter your username.
+  - Enter your password. (IMPORTANT: Remember this.)
+  - Click '**Next**.' <br>
+
+  <img width="969" height="688" alt="image" src="https://github.com/user-attachments/assets/70c3cf91-cc85-4ac0-bff3-1912268be1d1" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 12. Select your timezone
   - Select the location of your specific timezone
-  - Hit 'Next'
-  <img width="976" height="688" alt="image" src="https://github.com/user-attachments/assets/8d92c63b-564c-4f65-b04b-8f0f0003dde9" />
+  - Click '**Next**.' <br>
+
+  <img width="976" height="688" alt="image" src="https://github.com/user-attachments/assets/8d92c63b-564c-4f65-b04b-8f0f0003dde9" /> <br>
+  
 <br>
 <br>
 <hr>
 
 ### 13. Review your choices
   - Ensure that the following information appears correct
-  - Select the 'Install' button
-  <img width="971" height="691" alt="image" src="https://github.com/user-attachments/assets/d0732da6-7f2c-4b33-909c-8001c9865c01" />
+  - Select the '**Install**' button
+  <img width="971" height="691" alt="image" src="https://github.com/user-attachments/assets/d0732da6-7f2c-4b33-909c-8001c9865c01" /> <br>
 
 <br>
 <br>
