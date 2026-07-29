@@ -481,16 +481,16 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    apt install build-essential dkms linux-headers-$(uname -r) -y
    ```
    <br>
-   | Command Section | Meaning |
-   | --- | --- |
-   | apt | Ubuntu's package management tool. Is used to install, update, and manage software packages. |
-   | install | Tells '**apt**' to install the listed packages. |
-   | dkms | Basic compiling tools needed to build software, such as '**gcc**,' '**g++**,' and '**make**.' |
-   | linux-headers | Files needed to build software or drivers that interact with the Linux kernel. |
-   | $(...) | Runs the command inside the parentheses first and inserts its output into the full command. |
-   | uname | Displays system and kernel information. |
-   | -r | When used with '**uname**,' shows the currently running kernel version. |
-   | -y | Automatically answers 'yes' to installation prompts. |
+| Command | Meaning |
+| --- | --- |
+| apt | Ubuntu's package management tool. Is used to install, update, and manage software packages. |
+| install | Tells '**apt**' to install the listed packages. |
+| dkms | Basic compiling tools needed to build software, such as '**gcc**,' '**g++**,' and '**make**.' |
+| linux-headers | Files needed to build software or drivers that interact with the Linux kernel. |
+| $(...) | Runs the command inside the parentheses first and inserts its output into the full command. |
+| uname | Displays system and kernel information. |
+| -r | When used with '**uname**,' shows the currently running kernel version. |
+| -y | Automatically answers 'yes' to installation prompts. |
    
    - **Note:** This command does not install Guest Additions by itself. It installs the required build tools, DKMS support, and Linux kernel headers needed for the Guest Additions to install correctly.
    - **Note:** If Ubuntu was already properly updated in [Step 9.4](#4-upgrade-installed-packages), the terminal may say that some packages are already the newest version. This is normal, and you may proceed to the next step. <br>
