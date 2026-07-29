@@ -438,6 +438,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
    ```
    
    - This starts the package upgrade process. <br>
+   **Note:** Adding `-y` to the end of an `apt` command automatically answers yes to its confirmation prompt. For example, inputting `apt upgrade -y` allows you to skip the manual confirmation step. <br>
 
    <img width="908" height="1421" alt="image" src="https://github.com/user-attachments/assets/31d23fed-5361-4956-a1e3-adee6bd4c470" /> <br> <br>
 
@@ -461,6 +462,41 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
+VirtualBox Guest Additions improve the overall VM experience by allowing more seamless interactivity between the host and guest machine. It includes features such as better screen resizing, mouse integration, display performance, and shared clipboard functionality.
+
+1. Within the Ubuntu VM, open the terminal. (Keyboard Shortcut: '**Ctrl + Alt + T**')
+2. Enter a root shell: <br>
+   - Type the following command and press the '**Enter**' key. <br>
+   
+   ```bash
+   sudo su -
+   ```
+   <br>
+   - Enter the password you set in [step 7.11.](#11-create-your-account) <br>
+
+3. Install the VirtualBox Guest Additions Iso: <br>
+   - Type the following command and press the '**Enter**' key. <br>
+   
+   ```bash
+   apt install build-essential dkms linux-headers-$(uname -r) -y
+   ```
+   <br>
+   | Command Section | Meaning |
+   | --- | --- |
+   | apt | Ubuntu's package management tool. Is used to install, update, and manage software packages. |
+   | install | Tells '**apt**' to install the listed packages. |
+   | dkms | Basic compiling tools needed to build software, such as '**gcc**,' '**g++**,' and '**make**.' |
+   | linux-headers | Files needed to build software or drivers that interact with the Linux kernel. |
+   | $(...) | Runs the command inside the parentheses first and inserts its output into the full command. |
+   | uname | Displays system and kernel information. |
+   | -r | When used with '**uname**,' shows the currently running kernel version. |
+   | -y | Automatically answers 'yes' to installation prompts. |
+   
+   - **Note:** This command does not install Guest Additions by itself. It installs the required build tools, DKMS support, and Linux kernel headers needed for the Guest Additions to install correctly.
+   - **Note:** If Ubuntu was already properly updated in [Step 9.4](#4-upgrade-installed-packages), the terminal may say that some packages are already the newest version. This is normal, and you may proceed to the next step. <br>
+   <img width="887" height="363" alt="image" src="https://github.com/user-attachments/assets/04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" />
+   <br>
+
 [Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)   
 
 [Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)   
