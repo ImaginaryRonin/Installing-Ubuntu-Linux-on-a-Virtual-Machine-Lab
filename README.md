@@ -462,7 +462,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 
 # Bonus Steps
 ## Bonus Steps 1: Install VirtualBox Guest Additions
-VirtualBox Guest Additions improve the overall VM experience by allowing more seamless interactivity between the host and guest machine. It includes features such as better screen resizing, mouse integration, display performance, and shared clipboard functionality.
+VirtualBox Guest Additions improve the overall VM experience by allowing more seamless interactivity between the host and guest machine. It includes features such as better mouse integration, shared clipboard functionality, drag and drop support, and general VM integration.
 
 1. Within the Ubuntu VM, open the terminal. (Keyboard Shortcut: '**Ctrl + Alt + T**')
 2. Enter a root shell: <br>
@@ -515,7 +515,7 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    ./VBoxLinuxAdditions.run
    ```
 
-7. Confirm the the installation prompt:
+7. Confirm the installation prompt:
    
    ```text
    yes
@@ -531,7 +531,7 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    
 9. Restart the Ubuntu VM:
    ```bash
-   reboot
+   sudo reboot
    ```
 
    <br>
@@ -562,7 +562,7 @@ Shared Clipboard allows you to copy and paste text between the host machine and 
 Drag and Drop allows supported files to be moved between the host machine and VM. <br>
 
    1. On the top-left corner of the VM window, click the '**Devices**' option again.
-   2. Hover the mouse cursor over '**Shared Clipboard**.'
+   2. Hover the mouse cursor over '**Drag and Drop**.'
    3. Select '**Bidirectional**.' <br> <br>
    <img width="680" height="368" alt="Screenshot 2026-08-07 061215" src="https://github.com/user-attachments/assets/562546b9-9291-4a89-843c-87daac4ab2cf" /> <br>
 
@@ -590,14 +590,14 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
    4. Paste it back into Windows.
    5. Move the mouse cursor in and out of the VM window.
    
-   '**Note:** Shared Clipboard and Mouse Integration are highly beneficial quality-of-life features because they make it easier to move between the Windows host machine and the Ubuntu VM. <br>
-   '**Note:** Drag and Drop is also useful, but should be treated as a nice-to-have feature as it may not work consistently.
+   **Note:** Shared Clipboard and Mouse Integration are highly beneficial quality-of-life features because they make it easier to move between the Windows host machine and the Ubuntu VM. <br>
+   **Note:** Drag and Drop is also useful, but should be treated as a nice-to-have feature as it may not work consistently.
    <br>
 
    **Optional Drag and Drop test:**
    
-   6. On the Windows host machine, '**Right Click**' an empty space such as the desktop.
-   7. Hover over '**New**' and click "**Text Document**.'
+   6. On the Windows host machine, '**Right-click**' an empty space such as the desktop.
+   7. Hover over '**New**' and click '**Text Document**.'
    8. Double-click the '**New Text Document.txt**' and type something in.
    9. Save the file.
    10. Drag '**New Text Document.txt**' into the Ubuntu VM. <br>
