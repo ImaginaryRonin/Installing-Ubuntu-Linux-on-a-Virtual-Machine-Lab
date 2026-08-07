@@ -543,8 +543,62 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
 <br>
 <br>
 
-## Bonus Steps 2: Enable Shared Clipboard
+## Bonus Steps 2: Enable Guest Additions Features
 [Common Error 11: Shared Clipboard Does Not Work](#common-error-11-shared-clipboard-does-not-work)
+
+#### 1. Shared Clipboard: 
+Shared Clipboard allows you to copy and paste text between the host machine and the VM.
+
+   1. On the top-left corner of the VM window, click the '**Devices**' option.
+   2. Hover the mouse cursor over '**Shared Clipboard**.'
+   3. Select '**Bidirectional**.'
+
+   <img width="750" height="356" alt="Screenshot 2026-08-07 061135" src="https://github.com/user-attachments/assets/768c7237-3fb9-4141-a2b9-47cef6b237d3" />
+
+
+#### 2. Shared Drag and Drop: 
+Drag and Drop allows supported files to be moved between the host machine and VM.
+
+   1. On the top-left corner of the VM window, click the '**Devices**' option again.
+   2. Hover the mouse cursor over '**Shared Clipboard**.'
+   3. Select '**Bidirectional**.'
+
+   <img width="680" height="368" alt="Screenshot 2026-08-07 061215" src="https://github.com/user-attachments/assets/562546b9-9291-4a89-843c-87daac4ab2cf" />
+
+**Note:** Drag and Drop may not work perfectly on every VirtualBox and Ubuntu setup. In this case, Shared Clipboard or file transfer methods like SFTP can still be used.
+<br>
+<br>
+
+#### 3. Verify Mouse Integration: 
+Mouse Integration allows the mouse cursor to move between the host machine and the VM more seamlessly.
+
+   1. On the top-left corner of the VM window, click the '**Input**' option.
+   2. Confirm that '**Mouse Integration**' is enabled.
+
+   <img width="385" height="136" alt="Screenshot 2026-08-07 063913" src="https://github.com/user-attachments/assets/0598ef26-65a9-49c3-94e5-f10dfdbdb2f6" />
+
+**Note:** If the mouse becomes trapped inside the VM window, press the '**Host Key**' to release it. By default, the Host Key is typically '**Right Ctrl**.'
+**Note:** If this issue occurs, Mouse Integration may not be enabled or may not be working properly.
+
+#### 4. General VM Integration Check: 
+Test the following VM integrations to ensure Guest Addition functionality.
+   1. Copy a short line of text from Windows.
+   2. Paste it into the Ubuntu terminal or a text editor.
+   3. Copy a short line of text from Ubuntu.
+   4. Paste it back into Windows.
+   5. Move the mouse cursor in and out of the VM window.
+   
+   '**Note:** Shared Clipboard and Mouse Integration are highly beneficial quality-of-life features because they make it easier to move between the Windows host machine and the Ubuntu VM.
+   '**Note:** Drag and Drop is also useful, but should be treated as a nice-to-have feature as it may not work consistently.
+   <br>
+
+   Optional Drag and Drop test:
+   
+   6. On the Windows host machine, '**Right Click**' an empty space such as the desktop.
+   7. Hover over '**New**' and click "**Text Document**.'
+   8. Double-click the '**New Text Document.txt**' and type something in.
+   9. Save the file.
+   10. Drag '**New Text Document.txt**' into the Ubuntu VM.
 
 <br>
 <br>
