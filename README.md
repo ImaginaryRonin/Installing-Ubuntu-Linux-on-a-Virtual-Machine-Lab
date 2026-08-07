@@ -581,7 +581,7 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
 **Note:** If this issue occurs, Mouse Integration may not be enabled or may not be working properly.
 
 #### 4. General VM Integration Check: 
-Test the following VM integrations to ensure Guest Addition functionality.
+**Test the following VM integrations to ensure Guest Addition functionality:**
    1. Copy a short line of text from Windows.
    2. Paste it into the Ubuntu terminal or a text editor.
    3. Copy a short line of text from Ubuntu.
@@ -592,7 +592,7 @@ Test the following VM integrations to ensure Guest Addition functionality.
    '**Note:** Drag and Drop is also useful, but should be treated as a nice-to-have feature as it may not work consistently.
    <br>
 
-   Optional Drag and Drop test:
+   **Optional Drag and Drop test:**
    
    6. On the Windows host machine, '**Right Click**' an empty space such as the desktop.
    7. Hover over '**New**' and click "**Text Document**.'
