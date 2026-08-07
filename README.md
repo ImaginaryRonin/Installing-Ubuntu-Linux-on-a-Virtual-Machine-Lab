@@ -1,5 +1,3 @@
-<img width="887" height="363" alt="628176815-04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" src="https://github.com/user-attachments/assets/27ef5d59-058f-4f75-ba2a-95b546af6480" />
-<img width="887" height="363" alt="628176815-04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" src="https://github.com/user-attachments/assets/6e40a959-82ef-44ce-a84e-2b0dbb99718c" />
 # Installing Ubuntu Linux on a Virtual Machine
 This lab is a structured guide for installing and setting up Ubuntu Linux on a VirtualBox virtual machine.  
 <br>
