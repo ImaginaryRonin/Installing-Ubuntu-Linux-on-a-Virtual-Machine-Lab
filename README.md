@@ -485,7 +485,8 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
 | --- | --- |
 | apt | Ubuntu's package management tool. Is used to install, update, and manage software packages. |
 | install | Tells '**apt**' to install the listed packages. |
-| dkms | Basic compiling tools needed to build software, such as '**gcc**,' '**g++**,' and '**make**.' |
+| build-essential | Installs basic compiling tools needed to build software, such as '**gcc**,' '**g++**,' and '**make**.' |
+| dkms | Dynamic Kernel Module Support; helps rebuild kernel modules automatically after kernel updates. |
 | linux-headers | Files needed to build software or drivers that interact with the Linux kernel. |
 | $(...) | Runs the command inside the parentheses first and inserts its output into the full command. |
 | uname | Displays system and kernel information. |
