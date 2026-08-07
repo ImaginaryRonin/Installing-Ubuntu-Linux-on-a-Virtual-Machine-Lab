@@ -1,3 +1,5 @@
+<img width="887" height="363" alt="628176815-04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" src="https://github.com/user-attachments/assets/27ef5d59-058f-4f75-ba2a-95b546af6480" />
+<img width="887" height="363" alt="628176815-04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" src="https://github.com/user-attachments/assets/6e40a959-82ef-44ce-a84e-2b0dbb99718c" />
 # Installing Ubuntu Linux on a Virtual Machine
 This lab is a structured guide for installing and setting up Ubuntu Linux on a VirtualBox virtual machine.  
 <br>
@@ -474,13 +476,14 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    <br>
    - Enter the password you set in [step 7.11.](#11-create-your-account) <br>
 
-3. Install the VirtualBox Guest Additions Iso: <br>
+3. Install the packages necessary to build VirtualBox Guest Additions: <br>
    - Type the following command and press the '**Enter**' key. <br>
    
    ```bash
    apt install build-essential dkms linux-headers-$(uname -r) -y
    ```
    <br>
+   
 | Command | Meaning |
 | --- | --- |
 | apt | Ubuntu's package management tool. Is used to install, update, and manage software packages. |
@@ -495,7 +498,29 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    
    - **Note:** This command does not install Guest Additions by itself. It installs the required build tools, DKMS support, and Linux kernel headers needed for the Guest Additions to install correctly.
    - **Note:** If Ubuntu was already properly updated in [Step 9.4](#4-upgrade-installed-packages), the terminal may say that some packages are already the newest version. This is normal, and you may proceed to the next step. <br>
-   <img width="887" height="363" alt="image" src="https://github.com/user-attachments/assets/04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" />
+   <img width="887" height="363" alt="628176815-04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" src="https://github.com/user-attachments/assets/60e37731-7ae8-4b24-a154-8692514840c5" />
+
+4. Insert the Guest Additions CD image:
+   - In the VM window, click '**Devices**.'
+   - Click '**Insert Guest Additions CD Image**.'
+  
+5. Move into the mounted Guest Additions folder:
+
+   ```bash
+   cd /media/$USER/VBox_GAs_*
+   ```
+
+6. Run the Guest Additions installer:
+   
+   ```bash
+   ./VBoxLinuxAdditions.run
+   ```
+   
+7. Restart the Ubuntu VM:
+   ```bash
+   reboot
+   ```
+
    <br>
 
 [Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)   
