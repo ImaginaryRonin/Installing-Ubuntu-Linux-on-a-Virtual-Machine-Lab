@@ -505,16 +505,30 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
 5. Move into the mounted Guest Additions folder:
 
    ```bash
-   cd /media/$USER/VBox_GAs_*
+   cd /run/media/$USER/VBox_GAs_*
    ```
-
+   - **Note:** '**$USER**' should be replaced with what you named your computer in [step 7.11.](#11-create-your-account) <br> <br>
+   
 6. Run the Guest Additions installer:
    
    ```bash
    ./VBoxLinuxAdditions.run
    ```
+
+7. Confirm the the installation prompt:
+   ```text
+   yes
+   ```
+   <br>
+   <img width="890" height="813" alt="Screenshot 2026-08-07 012024" src="https://github.com/user-attachments/assets/0cd36781-6e61-4e20-86e6-f32432bce064" /> <br>
+
+
+8. Exit root:
+   ```bash
+   exit
+   ```
    
-7. Restart the Ubuntu VM:
+8. Restart the Ubuntu VM:
    ```bash
    reboot
    ```
