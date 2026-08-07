@@ -551,8 +551,7 @@ Shared Clipboard allows you to copy and paste text between the host machine and 
 
    1. On the top-left corner of the VM window, click the '**Devices**' option.
    2. Hover the mouse cursor over '**Shared Clipboard**.'
-   3. Select '**Bidirectional**.' <br>
-
+   3. Select '**Bidirectional**.' <br> <br>
    <img width="750" height="356" alt="Screenshot 2026-08-07 061135" src="https://github.com/user-attachments/assets/768c7237-3fb9-4141-a2b9-47cef6b237d3" /> <br>
 
 
@@ -561,8 +560,7 @@ Drag and Drop allows supported files to be moved between the host machine and VM
 
    1. On the top-left corner of the VM window, click the '**Devices**' option again.
    2. Hover the mouse cursor over '**Shared Clipboard**.'
-   3. Select '**Bidirectional**.' <br>
-
+   3. Select '**Bidirectional**.' <br> <br>
    <img width="680" height="368" alt="Screenshot 2026-08-07 061215" src="https://github.com/user-attachments/assets/562546b9-9291-4a89-843c-87daac4ab2cf" /> <br>
 
 **Note:** Drag and Drop may not work perfectly on every VirtualBox and Ubuntu setup. In this case, Shared Clipboard or file transfer methods like SFTP can still be used.
@@ -573,8 +571,7 @@ Drag and Drop allows supported files to be moved between the host machine and VM
 Mouse Integration allows the mouse cursor to move between the host machine and the VM more seamlessly. <br>
 
    1. On the top-left corner of the VM window, click the '**Input**' option.
-   2. Confirm that '**Mouse Integration**' is enabled. <br>
-
+   2. Confirm that '**Mouse Integration**' is enabled. <br> <br>
    <img width="385" height="136" alt="Screenshot 2026-08-07 063913" src="https://github.com/user-attachments/assets/0598ef26-65a9-49c3-94e5-f10dfdbdb2f6" /> <br>
 
 **Note:** If the mouse becomes trapped inside the VM window, press the '**Host Key**' to release it. By default, the Host Key is typically '**Right Ctrl**.' <br>
