@@ -495,7 +495,7 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
 | -y | Automatically answers 'yes' to installation prompts. |
    
    - **Note:** This command does not install Guest Additions by itself. It installs the required build tools, DKMS support, and Linux kernel headers needed for the Guest Additions to install correctly.
-   - **Note:** If Ubuntu was already properly updated in [Step 9.4](#4-upgrade-installed-packages), the terminal may say that some packages are already the newest version. This is normal, and you may proceed to the next step. <br>
+   - **Note:** If Ubuntu was already properly updated in [Step 9.4](#4-upgrade-installed-packages), the terminal may say that some packages are already the newest version. This is normal, and you may proceed to the next step. <br> <br>
    <img width="887" height="363" alt="628176815-04c3f993-aa1b-4fbd-9bb5-bdc8ff539602" src="https://github.com/user-attachments/assets/60e37731-7ae8-4b24-a154-8692514840c5" /> <br>
 
 4. Insert the Guest Additions CD image:
