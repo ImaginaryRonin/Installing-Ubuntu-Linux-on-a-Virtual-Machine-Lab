@@ -536,15 +536,15 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
 
    <br>
 
-[Common Error 9: Screen Resolution Is Too Small](#common-error-9-screen-resolution-is-too-small)   
 
-[Common Error 10: Guest Additions Fail to Install](#common-error-10-guest-additions-fail-to-install)   
+
+[Common Error 9: Guest Additions Fail to Install](#common-error-9-guest-additions-fail-to-install)   
 
 <br>
 <br>
 
 ## Bonus Steps 2: Enable Guest Additions Features
-[Common Error 11: Shared Clipboard Does Not Work](#common-error-11-shared-clipboard-does-not-work)
+
 
 #### 1. Shared Clipboard: 
 Shared Clipboard allows you to copy and paste text between the host machine and the VM.
@@ -554,6 +554,9 @@ Shared Clipboard allows you to copy and paste text between the host machine and 
    3. Select '**Bidirectional**.' <br> <br>
    <img width="750" height="356" alt="Screenshot 2026-08-07 061135" src="https://github.com/user-attachments/assets/768c7237-3fb9-4141-a2b9-47cef6b237d3" /> <br>
 
+[Common Error 10: Shared Clipboard Does Not Work](#common-error-10-shared-clipboard-does-not-work)
+<br>
+<br>
 
 #### 2. Shared Drag and Drop: 
 Drag and Drop allows supported files to be moved between the host machine and VM. <br>
@@ -565,6 +568,7 @@ Drag and Drop allows supported files to be moved between the host machine and VM
 
 **Note:** Drag and Drop may not work perfectly on every VirtualBox and Ubuntu setup. In this case, Shared Clipboard or file transfer methods like SFTP can still be used.
 <br>
+[Common Error 10: Shared Clipboard Does Not Work](#common-error-10-shared-clipboard-does-not-work)
 <br>
 
 #### 3. Verify Mouse Integration: 
@@ -596,8 +600,9 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
    7. Hover over '**New**' and click "**Text Document**.'
    8. Double-click the '**New Text Document.txt**' and type something in.
    9. Save the file.
-   10. Drag '**New Text Document.txt**' into the Ubuntu VM.
+   10. Drag '**New Text Document.txt**' into the Ubuntu VM. <br>
 
+[Common Error 11: Screen Resolution Is Too Small](#common-error-11-screen-resolution-is-too-small)
 <br>
 <br>
 
@@ -629,9 +634,9 @@ To resolve this:
 ### Common Error 6: Password Does Not Appear When Typing</u>
 ### Common Error 7: Ubuntu Has No Internet Connection
 ### Common Error 8: VM Freezes or Becomes Unresponsive
-### Common Error 9: Screen Resolution is Too Small
-### Common Error 10: Guest Additions Fail on Install
-### Common Error 11: Shared Clipboard Does Not Work
+### Common Error 9: Guest Additions Fail on Install
+### Common Error 10: Shared Clipboard Does Not Work
+### Common Error 11: Screen Resolution is Too Small
 ### Common Error 12: Virtualization is Disabled
 
 <br>
