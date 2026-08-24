@@ -507,7 +507,7 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    ```bash
    cd /run/media/<USERNAME>/VBox_GAs_*
    ```
-   - **Note:** '<USERNAME>' should be replaced with username created in [step 7.11.](#11-create-your-account) <br> <br>
+   - **Note:** '<USERNAME>' should be replaced with the username created in [step 7.11.](#11-create-your-account) <br> <br>
    
 6. Run the Guest Additions installer:
    
@@ -568,13 +568,13 @@ Drag and Drop allows supported files to be moved between the host machine and VM
 
 **Note:** Drag and Drop may not work perfectly on every VirtualBox and Ubuntu setup. In this case, Shared Clipboard or file transfer methods like SFTP can still be used.
 <br>
-[Common Error 10: Shared Clipboard Does Not Work](#common-error-10-shared-clipboard-does-not-work)
+[Common Error 11: Drag and Drop Does Not Work](#common-error-11-drag-and-drop-does-not-work)
 <br>
 
 #### 3. Verify Mouse Integration: 
 Mouse Integration allows the mouse cursor to move between the host machine and the VM more seamlessly. <br>
 
-   1. On the top-left corner of the VM window, click the '**Input**' option.
+   1. In the top-left corner of the VM window, click the '**Input**' option.
    2. Confirm that '**Mouse Integration**' is enabled. <br> <br>
    <img width="385" height="136" alt="Screenshot 2026-08-07 063913" src="https://github.com/user-attachments/assets/0598ef26-65a9-49c3-94e5-f10dfdbdb2f6" /> <br>
 
@@ -583,7 +583,7 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
 <br>
 
 #### 4. General VM Integration Check: 
-**Test the following VM integrations to ensure Guest Addition functionality:**
+**Test the following VM integrations to ensure Guest Additions functionality:**
    1. Copy a short line of text from Windows.
    2. Paste it into the Ubuntu terminal or a text editor.
    3. Copy a short line of text from Ubuntu.
@@ -596,13 +596,12 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
 
    **Optional Drag and Drop test:**
    
-   6. On the Windows host machine, '**Right-click**' an empty space such as the desktop.
-   7. Hover over '**New**' and click '**Text Document**.'
-   8. Double-click the '**New Text Document.txt**' and type something in.
-   9. Save the file.
-   10. Drag '**New Text Document.txt**' into the Ubuntu VM. <br>
+   1. On the Windows host machine, '**Right-click**' an empty space such as the desktop.
+   2. Hover over '**New**' and click '**Text Document**.'
+   3. Double-click the '**New Text Document.txt**' and type something in.
+   4. Save the file.
+   5. Drag '**New Text Document.txt**' into the Ubuntu VM. <br>
 
-[Common Error 11: Screen Resolution Is Too Small](#common-error-11-screen-resolution-is-too-small)
 <br>
 <br>
 
@@ -631,12 +630,12 @@ To resolve this:
 ### Common Error 3: VM Runs Very Slowly
 ### Common Error 4: VM Does Not Boot From ISO
 ### Common Error 5: VM Boots Back Into the Installer
-### Common Error 6: Password Does Not Appear When Typing</u>
+### Common Error 6: Password Does Not Appear When Typing
 ### Common Error 7: Ubuntu Has No Internet Connection
 ### Common Error 8: VM Freezes or Becomes Unresponsive
-### Common Error 9: Guest Additions Fail on Install
+### Common Error 9: Guest Additions Fail to Install
 ### Common Error 10: Shared Clipboard Does Not Work
-### Common Error 11: Screen Resolution is Too Small
+### Common Error 11: Drag and Drop Does Not Work
 ### Common Error 12: Virtualization is Disabled
 
 <br>
