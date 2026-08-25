@@ -609,6 +609,7 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
 Snapshots save the current state of the VM and allow you to return the VM to this specific point later. Think of it as a restore point that you can return to. It is useful before making system changes, installing new tools, or starting future labs.
 
 <br>
+   
    1. Shut down the Ubuntu VM.
    2. Open Oracle VirtualBox.
    3. Select Ubuntu VM from the list.
@@ -616,7 +617,6 @@ Snapshots save the current state of the VM and allow you to return the VM to thi
    5. Select '**Snapshots**.'
    6. Click '**Take**.'
    7. Name the snapshot something clear and memorable, like:
-
    ```text
    Clean Ubuntu Install
    ```
@@ -625,6 +625,7 @@ Snapshots save the current state of the VM and allow you to return the VM to thi
    ```text
    Ubuntu installed, updated, and Guest Additions configured.
    ```
+   
    9. Select '**OK**.'
 
 <br>
