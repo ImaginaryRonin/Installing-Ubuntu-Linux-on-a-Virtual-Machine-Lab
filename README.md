@@ -606,12 +606,68 @@ Mouse Integration allows the mouse cursor to move between the host machine and t
 <br>
 
 ## Bonus Steps 3: Take a Snapshot
+Snapshots save the current state of the VM and allow you to return the VM to this specific point later. Think of it as a restore point that you can return to. It is useful before making system changes, installing new tools, or starting future labs.
+
+<br>
+   1. Shut down the Ubuntu VM.
+   2. Open Oracle VirtualBox.
+   3. Select Ubuntu VM from the list.
+   4. Click the **menu icon** beside the VM name.
+   5. Select '**Snapshots**.'
+   6. Click '**Take**.'
+   7. Name the snapshot something clear and memorable, like:
+
+   ```text
+   Clean Ubuntu Install
+   ```
+
+   8. (Optional) Add a short description, for example:
+   ```text
+   Ubuntu installed, updated, and Guest Additions configured.
+   ```
+   9. Select '**OK**.'
 
 <br>
 <br>
 
 ## Bonus Steps 4: Verify Basic Linux Functionality
+This step verifies that the Ubuntu VM is installed, updated, and is able to run basic Linux commands.
+<br>
+   1. Within the Ubuntu VM, open the terminal. (Keyboard Shortcut: '**Ctrl + Alt + T**')
+   2. Check the current directory: 
+   ```bash
+   pwd
+   ```
+   3. List the files in the current directory:
+   ```bash
+   ls
+   ```   
+   4. Create a test folder:
+   ```bash
+   mkdir test-folder
+   ```   
+   5. Move into the test folder:
+   ```bash
+   cd test-folder
+   ```   
+   6. Create a test file:
+   ```bash
+   touch notes.txt
+   ```   
+   7. List the files again:
+   ```bash
+   ls
+   ```   
+   8. Verify Ubuntu system information:
+   ```bash
+   cat /etc/os-release
+   ```   
+   9. Return to home directory:
+   ```bash
+   cd ~
+   ```
 
+If these commands run successfully, the Ubuntu VM is functional and ready for future Linux practice.
 <br>
 <br>
 
