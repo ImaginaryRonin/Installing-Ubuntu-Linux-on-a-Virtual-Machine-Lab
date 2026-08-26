@@ -687,6 +687,7 @@ To resolve this:
 5. Reopen VirtualBox.
 
 <br>
+
 ### Common Error 2: Ubuntu 64-bit Option is Missing or Greyed-out
 If the Ubuntu 64-bit option is missing or greyed-out, it is possible that virtualization may be disabled on the host machine.
 
@@ -704,6 +705,7 @@ To resolve this:
 6. Open VirtualBox and try creating the VM again.
 
 <br>
+
 ### Common Error 3: VM Runs Very Slowly
 If the VM runs really slowly, the VM may not have enough resources available, or the host machine may be under heavy load.
 
@@ -717,6 +719,7 @@ To resolve this:
 6. Start the Ubuntu VM again.
 
 <br>
+
 ### Common Error 4: VM Does Not Boot From ISO
 If the VM does not boot into the Ubuntu installer, the ISO may not be attached correctly.
 
@@ -732,6 +735,7 @@ To resolve this:
 9. Start the VM again.
 
 <br>
+
 ### Common Error 5: VM Boots Back Into the Installer
 If the VM boots back into Ubuntu installer after installation, the Ubuntu ISO may still be attached.
 
@@ -749,6 +753,7 @@ To resolve this:
 The VM should now boot into the installed Ubuntu operating system
 
 <br>
+
 ### Common Error 6: Password Does Not Appear When Typing
 When typing a password into the Linux terminal, the password may not visually appear.
 
@@ -762,6 +767,7 @@ To continue:
 2. Press the '**Enter**' key.
 
 <br>
+
 ### Common Error 7: Ubuntu Has No Internet Connection
 If Ubuntu has no internet connection, the VM network adapter may be disabled or using the wrong network mode.
 
@@ -790,6 +796,7 @@ ping google.com
 <img width="762" height="334" alt="image" src="https://github.com/user-attachments/assets/03668037-b98e-4b2e-9cd0-3bf59f427cae" />
 
 <br>
+
 ### Common Error 8: VM Freezes or Becomes Unresponsive
 If the VM freezes or becomes unresponsive, the host machine may be low on available resources.
 
@@ -802,18 +809,22 @@ To resolve this:
 5. If the issue continues, review the VM CPU, RAM, and display settings.
 
 <br>
+
 ### Common Error 9: Guest Additions Fail to Install
 If Guest Additions fail to install, Ubuntu may be missing required build tools, DKMS, or Linux kernel headers.
 
 <br>
+
 ### Common Error 10: Shared Clipboard Does Not Work
 If Shared Clipboard does not work, the setting may not be enabled, or Guest Additions may not be working correctly.
 
 <br>
+
 ### Common Error 11: Drag and Drop Does Not Work
 If Drag and Drop does not work, VirtualBox may show an error saying that drag and drop to the guest is not possible.
 
 <br>
+
 ### Common Error 12: Virtualization is Disabled
 If virtualization is disabled, VirtualBox may not show 64-bit operating system options or may fail to start the VM.
 
