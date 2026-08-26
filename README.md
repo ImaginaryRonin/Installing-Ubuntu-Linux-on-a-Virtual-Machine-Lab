@@ -673,27 +673,149 @@ If these commands run successfully, the Ubuntu VM is functional and ready for fu
 <br>
 
 # Troubleshooting
+
 ### Common Error 1: VirtualBox Installation Fails
 Sometimes, VirtualBox does not install correctly.
 This can cause issues including missing administrator permissions, blocked security prompts, or denied driver installation.
+
 To resolve this:
+
 1. Right-click the VirtualBox installer.
-2. Select **Run as administrator**.
+2. Select '**Run as administrator**.'
 3. Run the VirtualBox installer as instructed in Step 1.
 4. Restart Windows if required.
 5. Reopen VirtualBox.
-   
+
+<br>
 ### Common Error 2: Ubuntu 64-bit Option is Missing or Greyed-out
+If the Ubuntu 64-bit option is missing or greyed-out, it is possible that virtualization may be disabled on the host machine.
+
+To resolve this:
+
+1. Restart the Windows 11 host machine.
+2. Enter the BIOS/UEFI settings. (This is usually accessed by pressing '**F2**' key or the '**Delete**' key on the initial startup screen. If Windows starts as normal, restart the computer and try again.)
+3. Look for the virtualization setting, it should be labeled something like:
+   - '**Intel Virtualization Technology**'
+   - '**Intel VT-x**'
+   - '**AMD-V**'
+   - '**SVM Mode**'
+4. Ensure this virtualization setting is enabled.
+5. Save the changes and restart the computer.
+6. Open VirtualBox and try creating the VM again.
+
+<br>
 ### Common Error 3: VM Runs Very Slowly
+If the VM runs really slowly, the VM may not have enough resources available, or the host machine may be under heavy load.
+
+To resolve this: 
+
+1. Shut down the Ubuntu VM.
+2. Close unnecessary applications on the host machine.
+3. Within Oracle VirtualBox, click the '**Settings**' icon.
+4. Within the '**Motherboard**' tab, increase the VM memory to 4096 MB if the host machine has enough available RAM.
+5. Within the '**Processor**' tab, increase the VM CPU cores to 4 if the host machine has enough available CPU threads and resources. (Do not move memory or CPU settings into the red warning section.)
+6. Start the Ubuntu VM again.
+
+<br>
 ### Common Error 4: VM Does Not Boot From ISO
+If the VM does not boot into the Ubuntu installer, the ISO may not be attached correctly.
+
+To resolve this:
+1. Shut down the Ubuntu VM.
+2. Open Oracle VirtualBox.
+3. Select the Ubuntu VM.
+4. Click the '**Settings**' icon.
+5. Select the '**Storage**' section.
+6. Confirm that the Ubuntu ISO is attached to the virtual optical drive.
+7. Select the '**System**' section and click the '**Motherboard**' tab.
+8. Ensure '**Optical**' is above '**Hard Disk**' in the boot order.
+9. Start the VM again.
+
+<br>
 ### Common Error 5: VM Boots Back Into the Installer
+If the VM boots back into Ubuntu installer after installation, the Ubuntu ISO may still be attached.
+
+To resolve this:
+
+1. Shut down the Ubuntu VM.
+2. Open Oracle VirtualBox.
+3. Select the Ubuntu VM.
+4. Click '**Settings**'
+5. Select the '**Storage**' section.
+6. Remove the Ubuntu ISO from the virtual optical drive.
+7. Do **NOT** remove the '**.vdi**' virtual hard disk.
+8. Start Ubuntu again.
+
+The VM should now boot into the installed Ubuntu operating system
+
+<br>
 ### Common Error 6: Password Does Not Appear When Typing
+When typing a password into the Linux terminal, the password may not visually appear.
+
+**This is normal.**
+
+Sometimes Linux will not show letters, dots, or symbols when typing passwords into the terminal.
+
+To continue:
+
+1. Type the password normally.
+2. Press the '**Enter**' key.
+
+<br>
 ### Common Error 7: Ubuntu Has No Internet Connection
+If Ubuntu has no internet connection, the VM network adapter may be disabled or using the wrong network mode.
+
+To resolve this: 
+
+1. Shut down the Ubuntu VM.
+2. Open Oracle VirtualBox.
+3. Select the Ubuntu VM.
+4. Click '**Settings**.'
+5. Go to '**Network**.'
+6. Confirm that '**Enable Network Adapter**' is checked.
+7. Confirm that the VM is using '**Bridged Adapter**' or '**NAT**.'
+8. Click '**OK**.'
+9. Start the VM again.
+
+To verify internet access: 
+1. Within the Ubuntu VM, open the terminal. (Keyboard Shortcut: '**Ctrl + Alt + T**')
+2. Enter the following code:
+```bash
+ping google.com
+```
+3. It should display ping statistics describing its ability to ping google.com.
+4. Press '**Ctrl + C**' to stop the ping test.
+   
+<br>
+<img width="762" height="334" alt="image" src="https://github.com/user-attachments/assets/03668037-b98e-4b2e-9cd0-3bf59f427cae" />
+
+<br>
 ### Common Error 8: VM Freezes or Becomes Unresponsive
+If the VM freezes or becomes unresponsive, the host machine may be low on available resources.
+
+To resolve this:
+
+1. If the VM does not respond after a few minutes, close the VM window.
+2. Select '**Power off the machine**' if needed.
+3. Close unnecessary applications on the Windows 11 host machine.
+4. Restart the Ubuntu VM.
+5. If the issue continues, review the VM CPU, RAM, and display settings.
+
+<br>
 ### Common Error 9: Guest Additions Fail to Install
+If Guest Additions fail to install, Ubuntu may be missing required build tools, DKMS, or Linux kernel headers.
+
+<br>
 ### Common Error 10: Shared Clipboard Does Not Work
+If Shared Clipboard does not work, the setting may not be enabled, or Guest Additions may not be working correctly.
+
+<br>
 ### Common Error 11: Drag and Drop Does Not Work
+If Drag and Drop does not work, VirtualBox may show an error saying that drag and drop to the guest is not possible.
+
+<br>
 ### Common Error 12: Virtualization is Disabled
+If virtualization is disabled, VirtualBox may not show 64-bit operating system options or may fail to start the VM.
 
 <br>
 <br>
