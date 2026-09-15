@@ -507,7 +507,7 @@ VirtualBox Guest Additions improve the overall VM experience by allowing more se
    ```bash
    cd /run/media/<USERNAME>/VBox_GAs_*
    ```
-   - **Note:** '<USERNAME>' should be replaced with the username created in [step 7.11.](#11-create-your-account) <br> <br>
+   - **Note:** `'<USERNAME>'` should be replaced with the username created in [step 7.11.](#11-create-your-account) <br> <br>
    
 6. Run the Guest Additions installer:
    
@@ -848,7 +848,7 @@ cd /run/media/<USERNAME>/VBox_GAs_*
 ```
 8. Restart the Ubuntu VM. <br>
 
-**Note:** '<USERNAME>' should be replaced with the username created in [step 7.11.](#11-create-your-account)
+**Note:** `'<USERNAME>'` should be replaced with the username created in [step 7.11.](#11-create-your-account)
 <br>
 <br>
 
@@ -876,10 +876,10 @@ To resolve this:
 1. Confirm that [VirtualBox Guest Additions are installed](#bonus-steps-1-install-virtualbox-guest-additions).
 2. Restart the Ubuntu VM.
 3. In the VM window, click '**Devices**.'
-4. Hover over '**Shared Clipboard**' and ensure '**Bidirectional**' is selected.
+4. Hover over '**Drag and Drop**' and ensure '**Bidirectional**' is selected.
 5. Test drag and drop functionality by moving a small file between the Windows host machine and Ubuntu.
 
-**Note:** Drag and Drop may not work consistently on every VirtualBox and Ubuntu setup. This feature is considered a nice-to-have for this lab. It is **NOT** mandatory. There exists much more reliable file transfer methods such as SFTP, but that is out of the scope of this lab.
+**Note:** Drag and Drop may not work consistently on every VirtualBox and Ubuntu setup. This feature is considered a nice-to-have for this lab. It is **NOT** mandatory. There are much more reliable file transfer methods such as SFTP, but that is out of the scope of this lab.
 <br>
 <br>
 
