@@ -841,13 +841,14 @@ apt install build-essential dkms linux-headers-$(uname -r) -y
 ```bash
 cd /run/media/<USERNAME>/VBox_GAs_*
 ```
-   - **Note:** '<USERNAME>' should be replaced with the username created in [step 7.11.](#11-create-your-account) <br>
+
 7. Run the Guest Additions installer once more:
 ```bash
 ./VBoxLinuxAdditions.run
 ```
-8. Restart the Ubuntu VM.
+8. Restart the Ubuntu VM. <br>
 
+**Note:** '<USERNAME>' should be replaced with the username created in [step 7.11.](#11-create-your-account)
 <br>
 <br>
 
