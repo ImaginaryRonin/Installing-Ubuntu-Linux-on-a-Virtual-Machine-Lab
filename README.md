@@ -813,15 +813,21 @@ To resolve this:
 ### Common Error 9: Guest Additions Fail to Install
 If Guest Additions fail to install, Ubuntu may be missing required build tools, DKMS, or Linux kernel headers.
 
+To resolve this:
+
 <br>
 
 ### Common Error 10: Shared Clipboard Does Not Work
 If Shared Clipboard does not work, the setting may not be enabled, or Guest Additions may not be working correctly.
 
+To resolve this:
+
 <br>
 
 ### Common Error 11: Drag and Drop Does Not Work
 If Drag and Drop does not work, VirtualBox may show an error saying that drag and drop to the guest is not possible.
+
+To resolve this:
 
 <br>
 
