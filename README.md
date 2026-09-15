@@ -48,7 +48,7 @@ By completing this lab, the user will:
 | [Step 8: Restart After Installation](#step-8-restart-after-installation) | Restarts the VM to ensure Ubuntu reboots properly. |
 | [Step 9: Update Ubuntu](#step-9-update-ubuntu) | Updates Ubuntu using Linux terminal commands. |
 | [Bonus Steps](#bonus-steps) | Optional quality-of-life steps for improving the VM experience. |
-| [Common Errors and Troubleshooting](#common-errors-and-troubleshooting) | Common VM issues and support-style fixes. |
+| [Troubleshooting](#troubleshooting) | Common VM issues and support-style fixes. |
 | [Closing Notes](#closing-notes) | Final summary of the lab and how it supports future IT portfolio projects. |
 
 <br>
@@ -127,7 +127,7 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 1. Go to the official [Ubuntu Desktop ISO](https://ubuntu.com/download/desktop) download page. 
 2. Determine whether you have an Intel, AMD, or ARM architecture processor in your computer. Select the version that applies to your system (In my case, it is the Intel or AMD option). <br>
 
-   **Note:** This file is 5.9 GB. (3.9 GB for the ARM version) This may take some time.  <br>
+   **Note:** This file is 5.9 GB (3.9 GB for the ARM version) as of 2026. This may take some time.  <br>
 
    <img width="2042" height="1102" alt="Screenshot 2026-07-08 062225" src="https://github.com/user-attachments/assets/fe09864a-cd03-4be5-9eb9-6cb55a487bfa" /> <br>
 
@@ -168,11 +168,11 @@ VirtualBox is the hypervisor or virtual machine manager used in this lab. It all
 1. Click the '**Specify virtual hardware**' section to show more options.
 2. For base memory, select at least 2048 MB. <br>
 
-   **Note:** There are diminishing returns after 4096 MB.   <br>
+   **Note:** 4096 MB is sufficient for the purposes of this lab.   <br>
 
 3. As for Number of CPUs, put in at least 2 cores.  <br>
 
-   **Note:** There are diminishing returns after 4 cores.   <br>
+   **Note:** 2 cores are sufficient for the purposes of this lab, although 4 may provide a smoother experience.   <br>
 
    <img width="1038" height="691" alt="image" src="https://github.com/user-attachments/assets/39dd78df-31c6-42c5-ba64-418326fa6723" />   <br>
   
@@ -841,6 +841,7 @@ apt install build-essential dkms linux-headers-$(uname -r) -y
 ```bash
 cd /run/media/<USERNAME>/VBox_GAs_*
 ```
+   - **Note:** '<USERNAME>' should be replaced with the username created in [step 7.11.](#11-create-your-account) <br>
 7. Run the Guest Additions installer once more:
 ```bash
 ./VBoxLinuxAdditions.run
